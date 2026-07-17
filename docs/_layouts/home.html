@@ -8,6 +8,36 @@ layout: default
 
     <h2>Project Description</h2>
     {{ site.course_description | markdownify }}
+
+    <div class="skills-section" aria-labelledby="skills-heading">
+        <h3 id="skills-heading">Skills &amp; Technologies</h3>
+        <div class="skills-list">
+            <a class="skill-button skill-github" href="{{ site.repository_url }}">
+                <i class="fab fa-github" aria-hidden="true"></i>
+                <span>GitHub</span>
+            </a>
+            <a class="skill-button skill-python" href="https://www.python.org/">
+                <i class="fab fa-python" aria-hidden="true"></i>
+                <span>Python</span>
+            </a>
+            <a class="skill-button skill-ros" href="https://wiki.ros.org/noetic">
+                <img class="skill-logo" src="{{ '/_images/brand-icons/ros.svg' | prepend: site.baseurl }}" alt="">
+                <span>ROS Noetic</span>
+            </a>
+            <a class="skill-button skill-zed" href="https://store.stereolabs.com/products/zed-2i">
+                <i class="fas fa-camera" aria-hidden="true"></i>
+                <span>ZED 2i</span>
+            </a>
+            <a class="skill-button skill-nvidia" href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-series/">
+                <img class="skill-logo" src="{{ '/_images/brand-icons/nvidia.svg' | prepend: site.baseurl }}" alt="">
+                <span>NVIDIA Jetson</span>
+            </a>
+            <a class="skill-button skill-unitree" href="https://www.unitree.com/go1/">
+                <i class="fas fa-robot" aria-hidden="true"></i>
+                <span>Unitree Go1</span>
+            </a>
+        </div>
+    </div>
     
     {{ content }}
 
