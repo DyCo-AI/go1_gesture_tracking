@@ -1,0 +1,24 @@
+items:
+  - url: /
+    name: Home
+    icon_class: fa fa-home fa-lg
+
+  - url: /project/
+    name: Project
+    icon_class: fas fa-robot
+
+  - url: /setup/
+    name: System Setup
+    icon_class: fas fa-microchip
+
+  - url: /roadmap/
+    name: Roadmap
+    icon_class: fas fa-route
+
+  - url: /safety/
+    name: Safety
+    icon_class: fas fa-shield-alt
+
+  - url: /resources/
+    name: Resources
+    icon_class: fas fa-book

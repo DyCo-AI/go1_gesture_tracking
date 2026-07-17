@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    <h1>{{ site.course_name }}</h1>
+
+    <h2>Project Description</h2>
+    {{ site.course_description | markdownify }}
+    
+    {{ content }}
+
+</div>

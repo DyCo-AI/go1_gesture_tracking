@@ -1,0 +1,12 @@
+# Hardware motion remains disabled until these values are validated in the lab.
+hardware_enabled: false
+
+command_timeout_seconds: 0.25
+max_forward_velocity: 0.0
+max_lateral_velocity: 0.0
+max_yaw_rate: 0.0
+
+stop_intent: STOP
+unknown_intent_behavior: stop
+stale_intent_behavior: stop
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+    <script>
+      document.querySelectorAll('a[href]').forEach(function (link) {
+        var href = link.getAttribute('href');
+        if (!href || href.charAt(0) === '#' || href.indexOf('mailto:') === 0 || href.indexOf('tel:') === 0) {
+          return;
+        }
+
+        var url = new URL(href, window.location.href);
+        var isPdf = url.pathname.toLowerCase().endsWith('.pdf');
+        var isExternal = url.origin !== window.location.origin;
+
+        if (isPdf || isExternal) {
+          link.setAttribute('target', '_blank');
+          link.setAttribute('rel', 'noopener noreferrer');
+        }
+      });
+    </script>
+  </body>
+
+</html>
+<!-- d.s.m.s.050600.062508.030515.080516.030818 | "Baby, I'm Yours" -->

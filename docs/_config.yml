@@ -1,0 +1,36 @@
+# Site settings
+course_name: "MISSION CONTROL: Gesture-Guided Quadruped Navigation"
+course_description: |
+  This one-credit Creative Inquiry course introduces undergraduate students to
+  human–robot teaming, computer vision, and safe high-level control of a
+  quadruped robot. Students develop a hand-gesture interface using their laptop
+  webcams, integrate it with the live camera feed from the laboratory's Unitree
+  Go1, and guide the robot through a modular maze without direct visual contact.
+
+course_semester: "Creative Inquiry Course · ME 2900/3900/4900 · 1 Credit"
+
+baseurl: "/go1_gesture_tracking"
+url: "https://dyco-ai.github.io"
+
+schoolname: "Clemson University"
+schoolurl: "https://dyco-ai.github.io/dycoailab_web/"
+school_logo: "/_images/clemson-logo.jpg"
+lab_logo: "/_images/lab-logo.png"
+
+repository_url: "https://github.com/DyCo-AI/go1_gesture_tracking"
+
+address: |
+  Dynamic and Control of AI Systems Laboratory
+  Clemson University
+  Clemson, South Carolina
+
+# Build settings
+markdown: kramdown
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ["_images", "_css"]
+exclude: ["develop", "vendor", "WEBSITE_SETUP.md"]
+
+dateformat: "%m/%d/%Y"
+future: true

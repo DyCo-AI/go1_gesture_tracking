@@ -1,0 +1,13 @@
+# Initial intent vocabulary. Classifier labels will be finalized with the model.
+gestures:
+  stop: STOP
+  forward: FORWARD
+  backward: BACKWARD
+  left: LEFT
+  right: RIGHT
+
+# Conservative validation defaults for development and mock-mode testing.
+minimum_confidence: 0.80
+minimum_hold_seconds: 0.30
+intent_timeout_seconds: 0.50
+
