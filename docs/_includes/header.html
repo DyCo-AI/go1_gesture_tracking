@@ -1,24 +1,26 @@
 <header class="site-header">
 
   <div class="wrapper" style="z-index: 100;">
-      <table><tr>
-          <td class="header-logo-cell">
-            <img class="header-logo school-logo" src="{{ site.school_logo | default: '/_images/logo.png' | prepend: site.baseurl }}" alt="{{ site.schoolname }} logo" valign="middle">
-          </td>
-          {% if site.lab_logo %}
-          <td class="header-logo-cell lab-logo-cell">
-            <img class="header-logo lab-logo" src="{{ site.lab_logo | prepend: site.baseurl }}" alt="Lab logo" valign="middle">
-          </td>
-          {% endif %}
-          <td style="padding-left:10px;"><a class="schoolname" style="font-size: 15px;" class="site-title" href="{{ site.schoolurl }}">{{ site.schoolname }}</a>
-          <br/>
-          <span style="margin-top: -2px;margin-bottom: -10px;" class="site-title"><a href="{{ site.baseurl }}/" title="{{ site.course_name }} - {{ site.schoolname }}"><b>{{ site.course_name }}</a></b></span>
-          <br/>
-          {% if site.course_semester %}
-          <span class="coursesemeter" style="font-size: 12px;font-weight: bold;margin-top: 10px;display: block;">{{ site.course_semester }}</span>
-          {% endif %}
-          </td>
-        </tr></table>
+    <div class="header-branding">
+      <div class="header-logos">
+        <a class="header-logo-card" href="https://www.clemson.edu/" aria-label="Clemson University">
+          <img class="header-logo school-logo" src="{{ site.school_logo | default: '/_images/logo.png' | prepend: site.baseurl }}" alt="{{ site.schoolname }} logo">
+        </a>
+        {% if site.lab_logo %}
+        <a class="header-logo-card" href="{{ site.schoolurl }}" aria-label="DyCo-AI Lab">
+          <img class="header-logo lab-logo" src="{{ site.lab_logo | prepend: site.baseurl }}" alt="DyCo-AI Lab logo">
+        </a>
+        {% endif %}
+      </div>
+
+      <div class="header-copy">
+        <a class="schoolname" href="{{ site.schoolurl }}">{{ site.schoolname }}</a>
+        <a class="site-title" href="{{ site.baseurl }}/" title="{{ site.course_name }} - {{ site.schoolname }}">{{ site.course_name }}</a>
+        {% if site.course_semester %}
+        <span class="coursesemeter">{{ site.course_semester }}</span>
+        {% endif %}
+      </div>
+    </div>
 
     <nav class="site-nav">
 
@@ -39,7 +41,7 @@
 
   </div>
 
-  <div class="header-texture" style="height:100%; z-index: 0; position: absolute; top:0; right: 0; left: 0; 
-  background-image: url('{{ '/_images/pattern.png' | prepend: site.baseurl }}');" />
+  <div class="header-texture" style="height:100%; z-index: 0; position: absolute; top:0; right: 0; left: 0;
+  background-image: url('{{ '/_images/pattern.png' | prepend: site.baseurl }}');"></div>
 
 </header>

@@ -7,7 +7,7 @@ result, and sends bounded high-level commands to the Go1 through ROS Noetic. The
 robot-mounted ZED 2i is a separate camera: its Jetson AGX Xavier camera node
 publishes the live robot view used by the operator.
 
-Project website: <https://dyco-ai.github.io/go1_gesture_tracking/>
+Project website: [https://dyco-ai.github.io/go1_gesture_tracking/](https://dyco-ai.github.io/go1_gesture_tracking/)
 
 ## Runtime Architecture
 
@@ -59,4 +59,3 @@ validated against the laboratory hardware.
 - Existing Jetson AGX Xavier/ZED 2i camera stack
 
 See [DEPENDENCIES.md](DEPENDENCIES.md) before attempting hardware operation.
-
