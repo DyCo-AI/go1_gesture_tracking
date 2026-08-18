@@ -6,7 +6,7 @@ permalink: /resources/
 
 ## Project Repository
 
-- [Go1 Gesture Tracking on GitHub](https://github.com/DyCo-AI/go1_gesture_tracking)
+- [Mission Control project on GitHub](https://github.com/DyCo-AI/go1_gesture_tracking)
 
 ## Course Documents
 

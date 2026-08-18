@@ -1,11 +1,12 @@
 # Site settings
-course_name: "MISSION CONTROL: Gesture-Guided Quadruped Navigation"
+course_name: "Mission Control: From Human Gestures to Intelligent Robot Motion"
 course_description: |
-  This one-credit Creative Inquiry course introduces undergraduate students to
-  human–robot teaming, computer vision, and safe high-level control of a
-  quadruped robot. Students develop a hand-gesture interface using their laptop
-  webcams, integrate it with the live camera feed from the laboratory's Unitree
-  Go1, and guide the robot through a modular maze without direct visual contact.
+  This one-credit Creative Inquiry course explores how human gestures can be
+  transformed into intelligent, safe robot motion. Students develop a
+  computer-vision interface using their laptop webcams, translate recognized
+  intent into bounded motion commands, integrate the system with the live camera
+  feed from the laboratory's Unitree Go1, and guide the robot through a modular
+  maze without direct visual contact.
 
 course_semester: "Creative Inquiry Course · ME 2900/3900/4900 · 1 Credit"
 

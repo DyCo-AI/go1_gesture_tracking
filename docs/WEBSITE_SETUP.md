@@ -4,10 +4,16 @@ This repository is configured as a Jekyll site deployed by GitHub Actions.
 
 ## Local preview
 
-1. Install Ruby 3.2 and Bundler.
-2. Run `bundle install` in the repository root.
+The local website toolchain is isolated in the `go1-website` Conda
+environment. It includes Ruby 3.3, Bundler, Jekyll, and the native build tools
+required by the locked gems.
+
+1. Run `conda activate go1-website`.
+2. Run `bundle check` in the repository root.
 3. Run `bundle exec jekyll serve --source docs`.
 4. Visit `http://localhost:4000/go1_gesture_tracking/`.
+
+After changing `Gemfile`, run `bundle install` inside the activated environment.
 
 ## GitHub Pages
 

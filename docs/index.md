@@ -3,8 +3,8 @@ layout: home
 ---
 
 <figure class="course-hero">
-  <img src="{{ '/_images/poster_chatgpt3.png' | prepend: site.baseurl }}" alt="Concept artwork showing a gesture-guided Unitree Go1 mission-control interface">
-  <figcaption>Mission-control concept artwork developed for the Fall 2026 Creative Inquiry project.</figcaption>
+  <img src="{{ '/_images/poster_chatgpt3.png' | prepend: site.baseurl }}" alt="Concept artwork showing human gestures translated into intelligent motion for a Unitree Go1">
+  <figcaption>From human gestures to intelligent robot motion: mission-control concept artwork for the Fall 2026 Creative Inquiry project.</figcaption>
 </figure>
 
 <div class="course-facts">

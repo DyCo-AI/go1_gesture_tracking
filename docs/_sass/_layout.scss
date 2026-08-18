@@ -237,6 +237,64 @@ html {
 }
 
 /* Creative Inquiry home page */
+.registration-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  border-left: 5px solid $accent-color;
+  border-radius: 4px;
+  background: #f5f2f8;
+  box-shadow: 0 4px 14px rgba(50, 26, 79, 0.08);
+
+  h2 {
+    margin: 0 0 0.4rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  table {
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+    background: #fff;
+  }
+
+  th,
+  td {
+    padding: 0.45rem 0.65rem;
+    border: 1px solid #d8d0df;
+    text-align: left;
+  }
+
+  th {
+    color: #fff;
+    background: $primary-color;
+    font-family: 'Titillium Web', sans-serif;
+  }
+}
+
+.registration-term {
+  margin: 0 0 0.15rem;
+  color: $accent-color;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.registration-deadline {
+  margin: 0.65rem 0 0;
+  color: $primary-color;
+}
+
+.registration-instructors {
+  margin: 0.65rem 0 0;
+}
+
 .skills-section {
   margin: 1.1rem 0 1.8rem;
 
@@ -523,6 +581,7 @@ html {
 
 @include media-query($on-palm) {
   .course-facts,
+  .registration-card,
   .pipeline-strip,
   .setup-grid,
   .course-gallery,

@@ -9,6 +9,31 @@ layout: default
     <h2>Project Description</h2>
     {{ site.course_description | markdownify }}
 
+    <section class="registration-card" aria-labelledby="registration-heading">
+        <div class="registration-intro">
+            <p class="registration-term">Fall 2026</p>
+            <h2 id="registration-heading">How to Register</h2>
+            <p>Log in to <a href="https://iroar.clemson.edu/">iROAR</a>, select the Fall 2026 term, and add the CRN for your course level.</p>
+        </div>
+        <div class="registration-details">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Course</th>
+                        <th scope="col">CRN</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>ME 2900-007</td><td>92799</td></tr>
+                    <tr><td>ME 3900-107</td><td>92800</td></tr>
+                    <tr><td>ME 4900-207</td><td>92801</td></tr>
+                </tbody>
+            </table>
+            <p class="registration-instructors"><strong>Instructors:</strong><br>Umesh G Vaidya<br>Sriram Krishnamoorthy</p>
+            <p class="registration-deadline"><strong>Last day to register:</strong> August 25, 2026</p>
+        </div>
+    </section>
+
     <div class="skills-section" aria-labelledby="skills-heading">
         <h3 id="skills-heading">Skills &amp; Technologies</h3>
         <div class="skills-list">
@@ -20,9 +45,9 @@ layout: default
                 <i class="fab fa-python" aria-hidden="true"></i>
                 <span>Python</span>
             </a>
-            <a class="skill-button skill-ros" href="https://wiki.ros.org/noetic">
+            <a class="skill-button skill-ros" href="https://www.ros.org/">
                 <img class="skill-logo" src="{{ '/_images/brand-icons/ros.svg' | prepend: site.baseurl }}" alt="">
-                <span>ROS Noetic</span>
+                <span>ROS</span>
             </a>
             <a class="skill-button skill-zed" href="https://store.stereolabs.com/products/zed-2i">
                 <i class="fas fa-camera" aria-hidden="true"></i>
