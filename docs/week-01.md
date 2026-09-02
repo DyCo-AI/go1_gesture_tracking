@@ -32,6 +32,8 @@ No controller changes are required this week.
 
 Read the one-page [Control Pipeline overview]({{ '/control-pipeline/' | prepend: site.baseurl }}) to see how a high-level velocity request becomes coordinated quadruped motion.
 
+Use the short [Week 1 Git Worksheet]({{ '/git-worksheet/' | prepend: site.baseurl }}) while setting up your team branch and weekly summary.
+
 ## Course code repository
 
 The actual simulation code lives in
