@@ -34,6 +34,8 @@ Read the one-page [Control Pipeline overview]({{ '/control-pipeline/' | prepend:
 
 Use the short [Week 1 Git Worksheet]({{ '/git-worksheet/' | prepend: site.baseurl }}) while setting up your team branch and weekly summary.
 
+Then read the [MuJoCo Orientation]({{ '/mujoco-orientation/' | prepend: site.baseurl }}) before launching the simulation.
+
 ## Course code repository
 
 The actual simulation code lives in
@@ -51,12 +53,12 @@ The actual simulation code lives in
 
 | Time | Activity |
 |---:|---|
-| 0:00–0:20 | Create or verify a GitHub account and review repository rules |
-| 0:20–0:45 | Clone the course repository |
-| 0:45–1:05 | Inspect main and switch to team-alpha or team-bravo |
-| 1:05–1:40 | Run the existing Go1 keyboard simulation |
-| 1:40–1:55 | Add a documentation-only weekly summary |
-| 1:55–2:00 | Commit, push, and check out |
+| 0:00–0:15 | Read the control-pipeline and MuJoCo orientation pages |
+| 0:15–0:35 | Create or verify a GitHub account and review repository rules |
+| 0:35–0:55 | Clone the course repository and enter the team branch |
+| 0:55–1:25 | Run the existing Go1 keyboard simulation |
+| 1:25–1:45 | Add a documentation-only weekly summary |
+| 1:45–2:00 | Commit, push, and answer the open-ended design question |
 
 ## Team workflow
 

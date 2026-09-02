@@ -23,6 +23,10 @@ items:
     name: Control Pipeline
     icon_class: fas fa-project-diagram
 
+  - url: /mujoco-orientation/
+    name: MuJoCo Orientation
+    icon_class: fas fa-cube
+
   - url: /safety/
     name: Safety
     icon_class: fas fa-shield-alt
