@@ -4,6 +4,12 @@ title: Project Roadmap
 permalink: /roadmap/
 ---
 
+## Current Week 1
+
+Begin with [GitHub onboarding and the Go1 baseline]({{ '/week-01/' | prepend: site.baseurl }}).
+This two-hour session covers repository access, team branches, running the
+existing simulation baseline, and documenting the work.
+
 The anticipated 12-week progression follows the preliminary Fall 2026 syllabus.
 It intentionally leaves flexibility for university holidays, student
 preparation, make-up work, additional testing, and changes in project progress.
