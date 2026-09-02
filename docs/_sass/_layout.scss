@@ -394,10 +394,47 @@ html {
 .week-step small { color: #4b4650; }
 .activity-callout { display: flex; gap: .5rem; margin: 1rem 0 1.5rem; padding: 1rem 1.1rem; border-radius: 10px; background: #f4eff8; color: #30283a; }
 
+article.page .page-content > h2 {
+  margin-top: 2.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #d9cfdf;
+}
+
+article.page .page-content > h2:first-of-type { margin-top: 1.25rem; }
+article.page .page-content > p { line-height: 1.7; }
+article.page .page-content > ul { margin-bottom: 1.5rem; }
+article.page .page-content table { margin: 1.25rem 0 2rem; }
+article.page .page-content th { color: #32283a; background: #f4eff8; }
+article.page .page-content td, article.page .page-content th { padding: .75rem .85rem; }
+
+.resource-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .8rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.resource-links a {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid #d9cfdf;
+  border-left: 4px solid $accent-color;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(50, 26, 79, .06);
+}
+
+.resource-links a:hover { border-color: $accent-color; background: #fffaf5; text-decoration: none; }
+.resource-links strong { color: #3b1f5f; }
+.resource-links span { color: #5c5661; font-size: .88rem; }
+
 @media screen and (max-width: 700px) {
   .week-hero { flex-direction: column; }
   .week-hero-badge { min-width: 0; }
   .week-steps { grid-template-columns: repeat(2, 1fr); }
+  .resource-links { grid-template-columns: 1fr; }
 }
 
 .course-hero {
