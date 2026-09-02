@@ -15,6 +15,10 @@ items:
     name: Roadmap
     icon_class: fas fa-route
 
+  - url: /weekly-activities/
+    name: Weekly Activities
+    icon_class: fas fa-tasks
+
   - url: /safety/
     name: Safety
     icon_class: fas fa-shield-alt

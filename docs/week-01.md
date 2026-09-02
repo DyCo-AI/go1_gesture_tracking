@@ -4,6 +4,22 @@ title: Week 1 — GitHub onboarding and Go1 baseline
 permalink: /week-01/
 ---
 
+<div class="week-hero">
+  <div>
+    <p class="eyebrow">WEEK 01 · 2 HOURS · TEAM ONBOARDING</p>
+    <h1>GitHub onboarding and Go1 baseline</h1>
+    <p class="week-hero-lede">Get access, find your team branch, run the existing simulation, and leave a clear record of what you learned.</p>
+  </div>
+  <div class="week-hero-badge"><strong>Goal</strong><span>Ready to work safely as a team</span></div>
+</div>
+
+<div class="week-steps">
+  <div class="week-step"><span>01</span><strong>Access</strong><small>GitHub + repository</small></div>
+  <div class="week-step"><span>02</span><strong>Branch</strong><small>team-alpha or team-bravo</small></div>
+  <div class="week-step"><span>03</span><strong>Run</strong><small>existing Go1 baseline</small></div>
+  <div class="week-step"><span>04</span><strong>Document</strong><small>weekly summary</small></div>
+</div>
+
 ## Goal
 
 In this two-hour onboarding session, you will join the course GitHub workflow,
@@ -62,4 +78,3 @@ By the end of the session, your team should have:
 - a one-sentence explanation of the difference between main and a team branch.
 
 [Open the complete Week 1 task sheet →](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/README.md)
-

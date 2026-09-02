@@ -10,6 +10,8 @@ Begin with [GitHub onboarding and the Go1 baseline]({{ '/week-01/' | prepend: si
 This two-hour session covers repository access, team branches, running the
 existing simulation baseline, and documenting the work.
 
+[View all weekly activities]({{ '/weekly-activities/' | prepend: site.baseurl }}).
+
 The anticipated 12-week progression follows the preliminary Fall 2026 syllabus.
 It intentionally leaves flexibility for university holidays, student
 preparation, make-up work, additional testing, and changes in project progress.

@@ -360,6 +360,46 @@ html {
 .skill-nvidia i { color: #76b900; }
 .skill-unitree i { color: $accent-color; }
 
+.week-hero {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin: 1rem 0 1.5rem;
+  padding: 1.5rem;
+  border-left: 6px solid $accent-color;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #f4eff8, #fff7ed);
+}
+
+.week-hero h1 { margin: .25rem 0 .5rem; color: $title-color; }
+.week-hero-lede { max-width: 38rem; margin-bottom: 0; font-size: 1.05rem; }
+.eyebrow { margin: 0; color: #3b1f5f; font-size: .78rem; font-weight: 700; letter-spacing: .08em; }
+.week-hero-badge {
+  display: flex;
+  min-width: 10rem;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #3b1f5f;
+  color: white;
+}
+.week-hero-badge span { margin-top: .3rem; font-size: .9rem; }
+.week-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: .75rem; margin: 0 0 2rem; }
+.week-step { padding: 1rem; border: 1px solid #ddd4e5; border-radius: 10px; background: #fff; }
+.week-step span { display: block; color: $accent-color; font-weight: 700; font-size: .8rem; }
+.week-step strong, .week-step small { display: block; }
+.week-step strong { margin: .2rem 0; color: #3b1f5f; }
+.week-step small { color: #4b4650; }
+.activity-callout { display: flex; gap: .5rem; margin: 1rem 0 1.5rem; padding: 1rem 1.1rem; border-radius: 10px; background: #f4eff8; color: #30283a; }
+
+@media screen and (max-width: 700px) {
+  .week-hero { flex-direction: column; }
+  .week-hero-badge { min-width: 0; }
+  .week-steps { grid-template-columns: repeat(2, 1fr); }
+}
+
 .course-hero {
   margin: 1.25rem 0 2rem;
 
