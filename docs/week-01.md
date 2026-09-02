@@ -36,6 +36,21 @@ Use the short [Week 1 Git Worksheet]({{ '/git-worksheet/' | prepend: site.baseur
 
 Then read the [MuJoCo Orientation]({{ '/mujoco-orientation/' | prepend: site.baseurl }}) before launching the simulation.
 
+## The standard weekly workflow
+
+Most weeks follow the same pattern:
+
+1. Fetch the latest instructor materials and read the week's activity page.
+2. Open the relevant code in the course repository and understand the baseline.
+3. Complete the worksheet, experiment log, or analysis requested for the week.
+4. Push the worksheet and documentation to your team branch.
+5. Propose code changes only when the activity calls for them.
+
+Documentation is the default deliverable. If you believe a code change would
+improve the system, discuss it with the instructor first. After instructor
+consent, make the change on your team branch, explain it in your weekly summary,
+and include evidence that it still works.
+
 ## Course code repository
 
 The actual simulation code lives in
