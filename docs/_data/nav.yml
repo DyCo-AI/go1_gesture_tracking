@@ -19,14 +19,6 @@ items:
     name: Weekly Activities
     icon_class: fas fa-tasks
 
-  - url: /control-pipeline/
-    name: Control Pipeline
-    icon_class: fas fa-project-diagram
-
-  - url: /mujoco-orientation/
-    name: MuJoCo Orientation
-    icon_class: fas fa-cube
-
   - url: /safety/
     name: Safety
     icon_class: fas fa-shield-alt
