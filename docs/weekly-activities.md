@@ -32,6 +32,17 @@ set of activities, and evidence to save in the team's code repository.
 | 11 | Supervised Go1 integration | Perform a controlled instructor-supervised checkout. |
 | 12 | Final demonstration and communication | Present a repeatable, evidence-based demonstration. |
 
+## Week 1 activity resources
+
+Complete these in order before submitting your individual summary:
+
+<div class="resource-links">
+  <a href="{{ '/control-pipeline/' | prepend: site.baseurl }}"><strong>1. Control Pipeline</strong><span>See how input becomes coordinated quadruped motion</span></a>
+  <a href="{{ '/mujoco-orientation/' | prepend: site.baseurl }}"><strong>2. MuJoCo Orientation</strong><span>Understand the Go1 world, policy, sensors, and actions</span></a>
+  <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/windows-setup.md"><strong><i class="fab fa-github" aria-hidden="true"></i> 3. Windows 11 Setup</strong><span>Install Git, VS Code, Miniconda, and MuJoCo dependencies</span></a>
+  <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/weekly-summary-template.md"><strong><i class="fab fa-github" aria-hidden="true"></i> 4. Individual Summary Template</strong><span>Copy the Markdown template into your team branch</span></a>
+</div>
+
 ## Weekly routine
 
 1. Read the goal and prerequisites.
@@ -41,4 +52,3 @@ set of activities, and evidence to save in the team's code repository.
 5. Review the completion checklist before moving forward.
 
 [Open the project roadmap →]({{ '/roadmap/' | prepend: site.baseurl }})
-
