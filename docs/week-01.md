@@ -31,11 +31,23 @@ permalink: /week-01/
   </div>
 </div>
 
+<div class="prereq-callout">
+  <strong>Prerequisite:</strong>
+  <span>Complete the <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/windows-setup.md"><i class="fab fa-github" aria-hidden="true"></i> Windows 11 setup</a> before class.</span>
+</div>
+
+<div class="week-flow">
+  <div><span>01</span><strong>Study</strong><p>Read the <a href="{{ '/control-pipeline/' | prepend: site.baseurl }}">Control Pipeline</a> and <a href="{{ '/mujoco-orientation/' | prepend: site.baseurl }}">MuJoCo Orientation</a>.</p></div>
+  <div><span>02</span><strong>Run</strong><p>Launch the existing Go1 MuJoCo Playground from the GitHub repository.</p></div>
+  <div><span>03</span><strong>Question</strong><p>Think about safer input: joystick, voice, gestures, or stale-command timeout.</p></div>
+  <div><span>04</span><strong>Submit</strong><p>Complete your individual Markdown worksheet and push it to your team branch.</p></div>
+</div>
+
 ## Goal
 
-In this two-hour onboarding session, you will join the course GitHub workflow,
-access your team's branch, run the instructor-provided Go1 baseline, and record
-what you did in a one-page weekly summary.
+In this two-hour session, you will understand the system you are about to work
+with, run the instructor-provided Go1 baseline, ask an open-ended design
+question, and record your own findings in a one-page weekly summary.
 
 No controller changes are required this week.
 
