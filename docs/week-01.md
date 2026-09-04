@@ -26,7 +26,7 @@ permalink: /week-01/
   <div class="week-start-links">
     <a href="{{ '/control-pipeline/' | prepend: site.baseurl }}"><strong>1. Understand the pipeline</strong><span>How commands become Go1 motion</span></a>
     <a href="{{ '/mujoco-orientation/' | prepend: site.baseurl }}"><strong>2. Learn the MuJoCo setup</strong><span>World, robot model, policy, and commands</span></a>
-    <a href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/windows-setup.md"><strong>3. Set up Windows 11</strong><span>Install Git, Miniconda, and dependencies</span></a>
+    <a href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/windows-setup.md"><strong>3. Set up Windows 11</strong><span>Install Git, VS Code, Miniconda, and dependencies</span></a>
     <a href="{{ '/git-worksheet/' | prepend: site.baseurl }}"><strong>4. Complete the Git worksheet</strong><span>Clone, branch, document, and push</span></a>
   </div>
 </div>
