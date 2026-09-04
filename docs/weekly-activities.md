@@ -39,7 +39,7 @@ Complete these in order before submitting your individual summary:
 <div class="resource-links">
   <a href="{{ '/control-pipeline/' | prepend: site.baseurl }}"><strong>1. Control Pipeline</strong><span>See how input becomes coordinated quadruped motion</span></a>
   <a href="{{ '/mujoco-orientation/' | prepend: site.baseurl }}"><strong>2. MuJoCo Orientation</strong><span>Understand the Go1 world, policy, sensors, and actions</span></a>
-  <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/windows-setup.md"><strong><i class="fab fa-github" aria-hidden="true"></i> 3. Windows 11 Setup</strong><span>Install Git, VS Code, Miniconda, and MuJoCo dependencies</span></a>
+  <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-windows-simulation/README.md"><strong><i class="fab fa-github" aria-hidden="true"></i> 3. Windows 11 + MuJoCo Setup</strong><span>Install Git, VS Code, Miniconda, the course environment, and robot assets</span></a>
   <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/weekly-summary-template.md"><strong><i class="fab fa-github" aria-hidden="true"></i> 4. Individual Summary Template</strong><span>Copy the Markdown template into your team branch</span></a>
 </div>
 
