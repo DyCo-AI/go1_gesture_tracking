@@ -452,7 +452,7 @@ article.page .page-content td, article.page .page-content th { padding: .75rem .
 .resource-links span { color: #5c5661; font-size: .88rem; }
 .github-link i { margin-right: .25rem; color: #24292f; }
 article.page .page-content a[href*="github.com/sriram-2502/go1-mujoco-playground"]:not(.github-link)::before {
-  content: "\\f09b";
+  content: "\f09b";
   margin-right: .3rem;
   color: #24292f;
   font-family: "Font Awesome 5 Brands";

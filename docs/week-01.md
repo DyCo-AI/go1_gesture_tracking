@@ -62,7 +62,7 @@ Then read the [MuJoCo Orientation]({{ '/mujoco-orientation/' | prepend: site.bas
 
 ## MuJoCo setup path
 
-The code repository contains the complete Windows 11 setup for this course. Begin with [Week 1: Run the Go1 simulation on Windows 11](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-windows-simulation/README.md). It walks you through Git and Miniconda, the `go1-mj-playground` environment, the Python dependencies, robot assets, the 48-value policy input, the 12 motor actions, and the keyboard simulation check.
+The code repository contains the complete Windows 11 setup for this course. Begin with [Week 1: Run the Go1 simulation on Windows 11](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-windows-simulation/README.md). It walks you through Git and Miniconda, the `go1-mujoco-playground` Conda environment, the Python dependencies, robot assets, the 48-value policy input, the 12 motor actions, and the keyboard simulation check. The repository folder and Conda environment use the same name: `go1-mujoco-playground`.
 
 The shorter [Week 1 GitHub onboarding task sheet](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/README.md) is the activity guide for the two-hour session. Use the simulation setup path first if the software is not installed.
 
