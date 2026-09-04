@@ -128,5 +128,3 @@ By the end of the session, your team should have:
 - a screenshot or short recording of the baseline simulation;
 - a committed and pushed weekly-summaries/week-01.md; and
 - a one-sentence explanation of the difference between main and a team branch.
-
-[Open the complete Week 1 task sheet →](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/README.md)
