@@ -98,6 +98,22 @@ weekly-summaries/week-01.md
 Use the
 <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/README.md#weekly-summary-template"><i class="fab fa-github" aria-hidden="true"></i> Week 1 summary template</a>.
 
+### Individual submission
+
+The weekly summary is an **individual** assignment. Each student fills out and
+submits their own copy, even though the file is pushed to the shared team
+branch. Use a unique filename so teammates do not overwrite one another:
+
+<a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/weekly-summary-template.md"><i class="fab fa-github" aria-hidden="true"></i> Download the Markdown template</a>
+
+Save your completed copy as:
+
+<div class="code-callout">weekly-summaries/week-01-firstname-lastname.md</div>
+
+Your summary should describe your own contribution, observations, problems,
+and learning. Team members may share experiment evidence, but each student
+should write their own reflection.
+
 ## Safety and repository rules
 
 Do not commit passwords, API keys, robot network credentials, private videos,
