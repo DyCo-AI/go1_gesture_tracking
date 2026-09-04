@@ -394,6 +394,21 @@ html {
 .week-step small { color: #4b4650; }
 .activity-callout { display: flex; gap: .5rem; margin: 1rem 0 1.5rem; padding: 1rem 1.1rem; border-radius: 10px; background: #f4eff8; color: #30283a; }
 
+.week-start-panel {
+  margin: 1.75rem 0 2.25rem;
+  padding: 1.25rem 1.35rem 1.35rem;
+  border: 1px solid #d9cfdf;
+  border-radius: 12px;
+  background: #fbf9fc;
+}
+
+.week-start-panel h2 { margin: .25rem 0 1rem; border: 0 !important; padding: 0 !important; }
+.week-start-links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .75rem; }
+.week-start-links a { display: flex; flex-direction: column; gap: .25rem; padding: .85rem 1rem; border-radius: 8px; background: white; box-shadow: 0 2px 8px rgba(50, 26, 79, .06); }
+.week-start-links a:hover { background: #fffaf5; text-decoration: none; }
+.week-start-links strong { color: #3b1f5f; }
+.week-start-links span { color: #5c5661; font-size: .88rem; }
+
 article.page .page-content > h2 {
   margin-top: 2.25rem;
   padding-top: 1.25rem;
@@ -435,6 +450,7 @@ article.page .page-content td, article.page .page-content th { padding: .75rem .
   .week-hero-badge { min-width: 0; }
   .week-steps { grid-template-columns: repeat(2, 1fr); }
   .resource-links { grid-template-columns: 1fr; }
+  .week-start-links { grid-template-columns: 1fr; }
 }
 
 .course-hero {
