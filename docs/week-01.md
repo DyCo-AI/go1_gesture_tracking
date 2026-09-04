@@ -26,7 +26,7 @@ permalink: /week-01/
   <div class="week-start-links">
     <a href="{{ '/control-pipeline/' | prepend: site.baseurl }}"><strong>1. Understand the pipeline</strong><span>How commands become Go1 motion</span></a>
     <a href="{{ '/mujoco-orientation/' | prepend: site.baseurl }}"><strong>2. Learn the MuJoCo setup</strong><span>World, robot model, policy, and commands</span></a>
-    <a href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/windows-setup.md"><strong>3. Set up Windows 11</strong><span>Install Git, VS Code, Miniconda, and dependencies</span></a>
+    <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/windows-setup.md"><strong><i class="fab fa-github" aria-hidden="true"></i> 3. Set up Windows 11</strong><span>Install Git, VS Code, Miniconda, and dependencies</span></a>
     <a href="{{ '/git-worksheet/' | prepend: site.baseurl }}"><strong>4. Complete the Git worksheet</strong><span>Clone, branch, document, and push</span></a>
   </div>
 </div>
@@ -65,14 +65,14 @@ and include evidence that it still works.
 ## Course code repository
 
 The actual simulation code lives in
-[sriram-2502/go1-mujoco-playground](https://github.com/sriram-2502/go1-mujoco-playground).
+<a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground"><i class="fab fa-github" aria-hidden="true"></i> sriram-2502/go1-mujoco-playground</a>.
 
 <div class="resource-links">
-  <a href="https://github.com/sriram-2502/go1-mujoco-playground/tree/main"><strong>Instructor baseline</strong><span>Stable main branch</span></a>
-  <a href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/README.md"><strong>Complete task sheet</strong><span>Step-by-step instructions</span></a>
-  <a href="https://github.com/sriram-2502/go1-mujoco-playground/tree/team-alpha"><strong>Team Alpha</strong><span>Team branch</span></a>
-  <a href="https://github.com/sriram-2502/go1-mujoco-playground/tree/team-bravo"><strong>Team Bravo</strong><span>Team branch</span></a>
-  <a href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/mujoco_playground/experimental/sim2sim/play_go1_keyboard.py"><strong>Keyboard controller</strong><span>Baseline simulation code</span></a>
+  <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/tree/main"><strong><i class="fab fa-github" aria-hidden="true"></i> Instructor baseline</strong><span>Stable main branch</span></a>
+  <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/README.md"><strong><i class="fab fa-github" aria-hidden="true"></i> Complete task sheet</strong><span>Step-by-step instructions</span></a>
+  <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/tree/team-alpha"><strong><i class="fab fa-github" aria-hidden="true"></i> Team Alpha</strong><span>Team branch</span></a>
+  <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/tree/team-bravo"><strong><i class="fab fa-github" aria-hidden="true"></i> Team Bravo</strong><span>Team branch</span></a>
+  <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/mujoco_playground/experimental/sim2sim/play_go1_keyboard.py"><strong><i class="fab fa-github" aria-hidden="true"></i> Keyboard controller</strong><span>Baseline simulation code</span></a>
 </div>
 
 ## Two-hour activity
@@ -96,7 +96,7 @@ Create this file in your team branch:
 weekly-summaries/week-01.md
 
 Use the
-[Week 1 summary template](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/README.md#weekly-summary-template).
+<a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/README.md#weekly-summary-template"><i class="fab fa-github" aria-hidden="true"></i> Week 1 summary template</a>.
 
 ## Safety and repository rules
 
