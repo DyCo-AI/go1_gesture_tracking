@@ -444,6 +444,13 @@ article.page .page-content td, article.page .page-content th { padding: .75rem .
 .resource-links a:hover { border-color: $accent-color; background: #fffaf5; text-decoration: none; }
 .resource-links strong { color: #3b1f5f; }
 .resource-links span { color: #5c5661; font-size: .88rem; }
+.github-link i { margin-right: .25rem; color: #24292f; }
+article.page .page-content a[href*="github.com/sriram-2502/go1-mujoco-playground"]:not(.github-link)::before {
+  content: "\\f09b";
+  margin-right: .3rem;
+  color: #24292f;
+  font-family: "Font Awesome 5 Brands";
+}
 
 @media screen and (max-width: 700px) {
   .week-hero { flex-direction: column; }
