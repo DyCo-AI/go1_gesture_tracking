@@ -46,7 +46,7 @@ Complete these in order before submitting your individual summary:
 ## Week 2 activity resources
 
 <div class="resource-links">
-  <a href="{{ '/week-02/' | prepend: site.baseurl }}"><strong>Week 2 activity page</strong><span>Read, measure, modify, and complete the design challenge</span></a>
+  <a href="{{ '/week-02/' | prepend: site.baseurl }}"><strong>Week 2 activity page</strong><span>Study control and RL, measure sensitivity, modify one parameter, and complete the design challenge</span></a>
   <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-02-python-git-commands/README.md"><strong><i class="fab fa-github" aria-hidden="true"></i> Week 2 task sheet</strong><span>Detailed repository instructions</span></a>
   <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-02-python-git-commands/worksheet.md"><strong><i class="fab fa-github" aria-hidden="true"></i> Week 2 worksheet</strong><span>Data tables, control/RL questions, and design challenge</span></a>
 </div>

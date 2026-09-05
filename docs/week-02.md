@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Week 2 - Read, measure, and modify the Go1 controller
+title: Week 2 - Go1 controller behavior, control, and reinforcement learning
 permalink: /week-02/
 ---
 
 <div class="week-hero">
   <div>
     <p class="eyebrow">WEEK 02 · 2 HOURS · SYSTEMS + CODE</p>
-    <h1>Read, measure, and modify the Go1 controller</h1>
+    <h1>Go1 controller behavior, control, and reinforcement learning</h1>
     <p class="week-hero-lede">Move from running the baseline to understanding what the controller receives, what it produces, and how one small change affects behavior.</p>
   </div>
   <div class="week-hero-badge"><strong>Goal</strong><span>Explain and measure the control loop</span></div>
