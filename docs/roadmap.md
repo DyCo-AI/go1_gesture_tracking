@@ -12,6 +12,8 @@ existing simulation baseline, and documenting the work.
 
 [View all weekly activities]({{ '/weekly-activities/' | prepend: site.baseurl }}).
 
+The next activity is [Week 2: Read, measure, and modify the Go1 controller]({{ '/week-02/' | prepend: site.baseurl }}).
+
 The anticipated 12-week progression follows the preliminary Fall 2026 syllabus.
 It intentionally leaves flexibility for university holidays, student
 preparation, make-up work, additional testing, and changes in project progress.
@@ -23,7 +25,7 @@ and maze navigation.
 | Week | Topic and Activity |
 |:--:|:--|
 | 1 | Project introduction, human–robot teaming objective, laboratory orientation, and robot safety |
-| 2 | Development environment, Python fundamentals, version control, and team workflow |
+| 2 | Read, measure, and modify the Go1 controller; basic control systems and reinforcement learning |
 | 3 | Image acquisition and visualization using laptop webcams |
 | 4 | Hand detection, landmarks, and the starter gesture vocabulary |
 | 5 | Gesture classification, confidence thresholds, temporal consistency, and performance testing |

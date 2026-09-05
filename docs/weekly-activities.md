@@ -20,7 +20,7 @@ set of activities, and evidence to save in the team's code repository.
 | Week | Focus | Student outcome |
 |:--:|---|---|
 | 1 | [GitHub onboarding and Go1 baseline]({{ '/week-01/' | prepend: site.baseurl }}) | Access the repository, use the team branch, run the baseline, and document the work. |
-| 2 | Development environment and Python/Git foundations | Understand the tools and make a small measured code change. |
+| 2 | Go1 controller, basic control systems, and reinforcement learning | Explain the ONNX policy, measure command sensitivity, and make one approved change. |
 | 3 | Webcam image acquisition | Capture and describe webcam data. |
 | 4 | Hand landmarks and gesture vocabulary | Detect a hand and define useful gestures. |
 | 5 | Gesture classification and validation | Reject uncertain or unstable classifications. |
@@ -41,6 +41,14 @@ Complete these in order before submitting your individual summary:
   <a href="{{ '/mujoco-orientation/' | prepend: site.baseurl }}"><strong>2. MuJoCo Orientation</strong><span>Understand the Go1 world, policy, sensors, and actions</span></a>
   <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-windows-simulation/README.md"><strong><i class="fab fa-github" aria-hidden="true"></i> 3. Windows 11 + MuJoCo Setup</strong><span>Install Git, VS Code, Miniconda, the course environment, and robot assets</span></a>
   <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/weekly-summary-template.md"><strong><i class="fab fa-github" aria-hidden="true"></i> 4. Individual Summary Template</strong><span>Copy the Markdown template into your team branch</span></a>
+</div>
+
+## Week 2 activity resources
+
+<div class="resource-links">
+  <a href="{{ '/week-02/' | prepend: site.baseurl }}"><strong>Week 2 activity page</strong><span>Read, measure, modify, and complete the design challenge</span></a>
+  <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-02-python-git-commands/README.md"><strong><i class="fab fa-github" aria-hidden="true"></i> Week 2 task sheet</strong><span>Detailed repository instructions</span></a>
+  <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-02-python-git-commands/worksheet.md"><strong><i class="fab fa-github" aria-hidden="true"></i> Week 2 worksheet</strong><span>Data tables, control/RL questions, and design challenge</span></a>
 </div>
 
 ## Weekly routine
