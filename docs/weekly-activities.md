@@ -20,7 +20,7 @@ set of activities, and evidence to save in the team's code repository.
 | Week | Focus | Student outcome |
 |:--:|---|---|
 | 1 | [GitHub onboarding and Go1 baseline]({{ '/week-01/' | prepend: site.baseurl }}) | Access the repository, use the team branch, run the baseline, and document the work. |
-| 2 | Go1 controller, basic control systems, and reinforcement learning | Explain the ONNX policy, measure command sensitivity, and make one approved change. |
+| 2 | [Go1 controller behavior, control, and reinforcement learning]({{ '/week-02/' | prepend: site.baseurl }}) | Explain the ONNX policy, measure command sensitivity, and make one approved change. |
 | 3 | Webcam input and hand tracking | Capture webcam data and visualize hand landmarks. |
 | 4 | Gesture recognition and temporal filtering | Produce stable symbolic gesture commands. |
 | 5 | Gesture-to-command control in MuJoCo | Control the simulated Go1 with validated gestures. |
