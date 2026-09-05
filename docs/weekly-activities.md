@@ -21,16 +21,16 @@ set of activities, and evidence to save in the team's code repository.
 |:--:|---|---|
 | 1 | [GitHub onboarding and Go1 baseline]({{ '/week-01/' | prepend: site.baseurl }}) | Access the repository, use the team branch, run the baseline, and document the work. |
 | 2 | Go1 controller, basic control systems, and reinforcement learning | Explain the ONNX policy, measure command sensitivity, and make one approved change. |
-| 3 | Webcam image acquisition | Capture and describe webcam data. |
-| 4 | Hand landmarks and gesture vocabulary | Detect a hand and define useful gestures. |
-| 5 | Gesture classification and validation | Reject uncertain or unstable classifications. |
-| 6 | Gesture-to-command mapping | Convert validated gestures into bounded commands. |
-| 7 | Gesture-controlled Go1 simulation | Connect gesture intent to MuJoCo. |
-| 8 | Safety behavior and automated tests | Verify stops, timeouts, confidence limits, and bounds. |
-| 9 | Integrated system evaluation | Measure accuracy, latency, and robustness. |
-| 10 | ROS and hardware readiness | Test interfaces without enabling physical motion. |
-| 11 | Supervised Go1 integration | Perform a controlled instructor-supervised checkout. |
-| 12 | Final demonstration and communication | Present a repeatable, evidence-based demonstration. |
+| 3 | Webcam input and hand tracking | Capture webcam data and visualize hand landmarks. |
+| 4 | Gesture recognition and temporal filtering | Produce stable symbolic gesture commands. |
+| 5 | Gesture-to-command control in MuJoCo | Control the simulated Go1 with validated gestures. |
+| 6 | Hardware interface and safety checkout | Verify communication and safety without physical motion. |
+| 7 | Supervised hardware integration | Test bounded gesture control on the physical Go1. |
+| 8 | Final project definition and architecture | Approve the team design, interfaces, backlog, and test plan. |
+| 9 | Final project implementation | Integrate and extend the complete system in simulation. |
+| 10 | Reliability testing and maze preparation | Measure repeatability and prepare the demonstration. |
+| 11 | Supervised final demonstration rehearsal | Rehearse the complete project under instructor supervision. |
+| 12 | Final project demonstration and technical review | Present and evaluate the complete system. |
 
 ## Week 1 activity resources
 
@@ -47,8 +47,8 @@ Complete these in order before submitting your individual summary:
 
 <div class="resource-links">
   <a href="{{ '/week-02/' | prepend: site.baseurl }}"><strong>Week 2 activity page</strong><span>Study control and RL, measure sensitivity, modify one parameter, and complete the design challenge</span></a>
-  <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-02-python-git-commands/README.md"><strong><i class="fab fa-github" aria-hidden="true"></i> Week 2 task sheet</strong><span>Detailed repository instructions</span></a>
-  <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-02-python-git-commands/worksheet.md"><strong><i class="fab fa-github" aria-hidden="true"></i> Week 2 worksheet</strong><span>Data tables, control/RL questions, and design challenge</span></a>
+  <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-02-go1-controller/README.md"><strong><i class="fab fa-github" aria-hidden="true"></i> Week 2 task sheet</strong><span>Detailed repository instructions</span></a>
+  <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-02-go1-controller/worksheet.md"><strong><i class="fab fa-github" aria-hidden="true"></i> Week 2 worksheet</strong><span>Data tables, control/RL questions, and design challenge</span></a>
 </div>
 
 ## Weekly routine

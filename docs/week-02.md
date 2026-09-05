@@ -26,7 +26,7 @@ permalink: /week-02/
 4. Make one instructor-approved sensitivity change and measure it again.
 5. Design a safer next input interface and record it in the worksheet.
 
-Use the [Week 2 task sheet](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-02-python-git-commands/README.md) and the [Week 2 worksheet](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-02-python-git-commands/worksheet.md).
+Use the [Week 2 task sheet](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-02-go1-controller/README.md) and the [Week 2 worksheet](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-02-go1-controller/worksheet.md).
 
 ## The control idea
 

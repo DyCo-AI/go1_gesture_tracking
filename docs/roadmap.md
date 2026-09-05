@@ -14,11 +14,10 @@ existing simulation baseline, and documenting the work.
 
 The next activity is [Week 2: Read, measure, and modify the Go1 controller]({{ '/week-02/' | prepend: site.baseurl }}).
 
-The anticipated 12-week progression follows the preliminary Fall 2026 syllabus.
-It intentionally leaves flexibility for university holidays, student
-preparation, make-up work, additional testing, and changes in project progress.
-The final two activity weeks are reserved for supervised robot demonstrations
-and maze navigation.
+The anticipated 12-week progression is flexible for holidays, preparation,
+make-up work, additional testing, and changes in project progress. Weeks 1-5
+build the gesture-to-Go1 simulation path, Weeks 6-7 cover supervised hardware
+integration, and Week 8 begins the final project phase.
 
 ## Weekly Activities
 
@@ -26,16 +25,16 @@ and maze navigation.
 |:--:|:--|
 | 1 | Project introduction, human–robot teaming objective, laboratory orientation, and robot safety |
 | 2 | Read, measure, and modify the Go1 controller; basic control systems and reinforcement learning |
-| 3 | Image acquisition and visualization using laptop webcams |
-| 4 | Hand detection, landmarks, and the starter gesture vocabulary |
-| 5 | Gesture classification, confidence thresholds, temporal consistency, and performance testing |
-| 6 | Mapping gestures to abstract robot actions and testing commands in mock mode |
-| 7 | Robot camera feed, remote operator display, and high-level Unitree velocity commands |
-| 8 | Command timeouts, default-stop behavior, and obstacle-proximity stopping |
-| 9 | Integration of gesture recognition, remote video, motion commands, and safety supervision |
-| 10 | Modular maze design, supervised robot integration, and demonstration-readiness review |
-| 11 | Robot Demonstration I: system checkout, practice maze navigation, and corrective testing |
-| 12 | Robot Demonstration II: final team maze navigation, presentation, and project review |
+| 3 | Webcam input and hand tracking |
+| 4 | Gesture recognition and temporal filtering |
+| 5 | Gesture-to-command control in MuJoCo |
+| 6 | Hardware interface and safety checkout |
+| 7 | Supervised hardware integration |
+| 8 | Final project definition and architecture |
+| 9 | Final project implementation |
+| 10 | Reliability testing and maze preparation |
+| 11 | Supervised final demonstration rehearsal |
+| 12 | Final project demonstration and technical review |
 
 <div class="section-spacer" aria-hidden="true"></div>
 
