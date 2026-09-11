@@ -82,8 +82,8 @@ Most weeks follow the same pattern:
 1. Fetch the latest instructor materials and read the week's activity page.
 2. Open the relevant code in the course repository and understand the baseline.
 3. Complete the worksheet, experiment log, or analysis requested for the week.
-4. Push your documentation to your team branch. The Week 1 submission is an individual summary stored in the shared team branch.
-5. Propose code changes only when the activity calls for them.
+4. Save your individual summary under `course/student-work/<team>/<first-last>/weekly-summaries/` and push only that Markdown file to your team branch.
+5. Keep code experiments local until the instructor announces the Week 5 code-integration milestone.
 
 Documentation is the default deliverable. If you believe a code change would
 improve the system, discuss it with the instructor first. After instructor
@@ -116,7 +116,7 @@ Setup is completed before class. The two-hour activity begins with reading and v
 | 1:25–1:45 | Add a documentation-only weekly summary |
 | 1:45–2:00 | Commit, push, and answer the open-ended design question |
 
-Students work on `team-alpha` or `team-bravo`. `main` is read-only for students and is maintained by the instructor. Do not push directly to `main`.
+Students work only on `team-alpha` or `team-bravo`. Do not create personal branches. `main` is read-only for students and is maintained by the instructor.
 
 ### Individual submission
 
@@ -128,7 +128,10 @@ branch. Use a unique filename so teammates do not overwrite one another:
 
 Save your completed copy as:
 
-<div class="code-callout">weekly-summaries/week-01-firstname-lastname.md</div>
+<div class="code-callout">course/student-work/team-alpha/first-last/weekly-summaries/week-01.md</div>
+
+Use `team-bravo` instead of `team-alpha` when applicable. Create your own
+`first-last` folder so no teammate overwrites your summary.
 
 Your summary should describe your own contribution, observations, problems,
 and learning. Team members may share experiment evidence, but each student
@@ -146,5 +149,5 @@ By the end of the session, you should have:
 
 - the correct team branch checked out;
 - a screenshot or short recording of the baseline simulation;
-- your individual `weekly-summaries/week-01-firstname-lastname.md` committed and pushed to the shared team branch; and
+- your individual `course/student-work/<team>/<first-last>/weekly-summaries/week-01.md` committed and pushed to the shared team branch; and
 - a one-sentence explanation of the difference between main and a team branch.

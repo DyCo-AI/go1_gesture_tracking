@@ -72,23 +72,29 @@ git status
 
 ## 5. Make a weekly summary
 
-Create this file:
+Create this file inside your student folder:
 
 ```text
-weekly-summaries/week-01.md
+course/student-work/team-alpha/first-last/weekly-summaries/week-01.md
 ```
+
+Use your own name and replace `team-alpha` with `team-bravo` when applicable.
+Do not create a personal Git branch.
 
 Record your goal, what you did, evidence, one problem, and one thing you learned.
 
 ## 6. Save and publish your work
 
 ```powershell
-git add weekly-summaries/week-01.md
+git add course/student-work/team-alpha/first-last/weekly-summaries/week-01.md
 git status
 git commit -m "Add week 01 summary"
 git log --oneline -1
-git push
+git push -u origin team-alpha
 ```
+
+Team Bravo should replace both `team-alpha` values with `team-bravo`. Until Week
+5, push weekly summaries only; do not push code changes.
 
 After pushing, refresh your team branch on GitHub and confirm that the file is
 visible there.
@@ -114,4 +120,3 @@ git remote -v              # Which GitHub repository am I using?
 - Git records history; it does not replace the weekly summary.
 
 [Return to Week 1 activities →]({{ '/week-01/' | prepend: site.baseurl }})
-

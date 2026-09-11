@@ -15,6 +15,11 @@ set of activities, and evidence to save in the team's code repository.
   team's weekly summary.</span>
 </div>
 
+<div class="prereq-callout">
+  <strong>Branch and submission rule:</strong>
+  <span>Students use only their assigned <code>team-alpha</code> or <code>team-bravo</code> branch. Do not create personal branches. Through Week 4, push weekly summaries only; code experiments stay local. Code integration begins when the instructor announces Week 5.</span>
+</div>
+
 ## Course path
 
 | Week | Focus | Student outcome |
@@ -55,8 +60,9 @@ Complete these in order before submitting your individual summary:
 
 1. Read the goal and prerequisites.
 2. Complete the activities with your team.
-3. Save screenshots, terminal output, plots, or test results.
-4. Commit the weekly summary to your team branch.
-5. Review the completion checklist before moving forward.
+3. Save screenshots, terminal output, plots, or test results locally.
+4. Save your individual summary under `course/student-work/<team>/<first-last>/weekly-summaries/`.
+5. Commit and push only that summary to your team branch until Week 5.
+6. Review the completion checklist before moving forward.
 
 [Open the project roadmap →]({{ '/roadmap/' | prepend: site.baseurl }})

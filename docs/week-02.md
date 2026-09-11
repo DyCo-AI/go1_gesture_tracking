@@ -87,10 +87,12 @@ to make the physical robot fall.
 
 ## Branch and code rules
 
-Start from your assigned `team-alpha` or `team-bravo` branch, then create a
-personal branch such as `week-02/your-name`. Do not push directly to `main` or
-to the shared team branch while experimenting. Ask the instructor before
-pushing an approved code change.
+Work directly on your assigned `team-alpha` or `team-bravo` branch. Do not create
+another branch. Keep the sensitivity experiment local and restore the original
+parameter afterward. Save your work in an individual summary at
+`course/student-work/<team>/<first-last>/weekly-summaries/week-02.md` and push
+only that Markdown file. Code integration begins when the instructor announces
+Week 5.
 
 ## Completion evidence
 
