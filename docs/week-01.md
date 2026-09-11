@@ -37,6 +37,23 @@ permalink: /week-01/
   <span>Complete the <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-windows-simulation/README.md"><i class="fab fa-github" aria-hidden="true"></i> Windows 11 and MuJoCo setup</a>. During the two-hour session we verify it, study the system, and run the baseline.</span>
 </div>
 
+## Windows 11 setup checklist
+
+Complete this before the Week 1 session. The GitHub setup guide is the single
+source of truth for installation details.
+
+<div class="resource-links">
+  <a href="https://git-scm.com/install/windows"><strong>Install Git for Windows</strong><span>Git Bash and command-line Git</span></a>
+  <a href="https://code.visualstudio.com/download"><strong>Install Visual Studio Code</strong><span>Editor for Python and Markdown</span></a>
+  <a href="https://docs.anaconda.com/miniconda/install/"><strong>Install Miniconda</strong><span>Create the go1-mujoco-playground environment</span></a>
+  <a class="github-link" href="https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-windows-simulation/README.md"><strong><i class="fab fa-github" aria-hidden="true"></i> Complete the MuJoCo setup</strong><span>Install dependencies, assets, and verify the baseline</span></a>
+</div>
+
+In VS Code, install the **Python**, **Pylance**, **Markdown All in One**, and
+**YAML** extensions. Open the repository with `code .` or use **File > Open
+Folder**. Run course commands from **Miniconda Prompt**, not from an unrelated
+Python installation.
+
 <div class="week-flow">
   <div><span>01</span><strong>Study</strong><p>Read the <a href="{{ '/control-pipeline/' | prepend: site.baseurl }}">Control Pipeline</a> and <a href="{{ '/mujoco-orientation/' | prepend: site.baseurl }}">MuJoCo Orientation</a>.</p></div>
   <div><span>02</span><strong>Run</strong><p>Use your team branch to launch the existing Go1 MuJoCo Playground. Do not change code.</p></div>
