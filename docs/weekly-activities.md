@@ -4,6 +4,8 @@ title: Weekly Activities
 permalink: /weekly-activities/
 ---
 
+[Submission format, optional media, and local data]({{ '/student-work/' | prepend: site.baseurl }}).
+
 # Weekly Activities
 
 This is the student-facing course path. Each week has one clear goal, a small
@@ -17,25 +19,25 @@ set of activities, and evidence to save in the team's code repository.
 
 <div class="prereq-callout">
   <strong>Branch and submission rule:</strong>
-  <span>Students use only their assigned <code>team-alpha</code> or <code>team-bravo</code> branch. Do not create personal branches. Through Week 4, push weekly summaries only; code experiments stay local. Code integration begins when the instructor announces Week 5.</span>
+  <span>Students use only their assigned <code>team-alpha</code> or <code>team-bravo</code> branch. Do not create personal branches. Submit individual weekly README reports throughout the course; code experiments and full run data stay local. Optional small media follows the submission policy.</span>
 </div>
 
 ## Course path
 
-| Week | Focus | Student outcome |
-|:--:|---|---|
-| 1 | [GitHub onboarding and Go1 baseline]({{ '/week-01/' | prepend: site.baseurl }}) | Access the repository, use the team branch, run the baseline, and document the work. |
-| 2 | [Go1 controller behavior, control, and reinforcement learning]({{ '/week-02/' | prepend: site.baseurl }}) | Explain the ONNX policy, measure command sensitivity, and make one approved change. |
-| 3 | Webcam input and hand tracking | Capture webcam data and visualize hand landmarks. |
-| 4 | Gesture recognition and temporal filtering | Produce stable symbolic gesture commands. |
-| 5 | Gesture-to-command control in MuJoCo | Control the simulated Go1 with validated gestures. |
-| 6 | Hardware interface and safety checkout | Verify communication and safety without physical motion. |
-| 7 | Supervised hardware integration | Test bounded gesture control on the physical Go1. |
-| 8 | Final project definition and architecture | Approve the team design, interfaces, backlog, and test plan. |
-| 9 | Final project implementation | Integrate and extend the complete system in simulation. |
-| 10 | Reliability testing and maze preparation | Measure repeatability and prepare the demonstration. |
-| 11 | Supervised final demonstration rehearsal | Rehearse the complete project under instructor supervision. |
-| 12 | Final project demonstration and technical review | Present and evaluate the complete system. |
+| Week | Weekly lab |
+| --- | --- |
+| 1 | [GitHub onboarding and Go1 baseline](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/README.md) |
+| 2 | [Go1 controller behavior, control, and reinforcement learning](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-02-go1-controller/README.md) |
+| 3 | [Webcam, MediaPipe, and gesture intent](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-03-webcam-basics/README.md) |
+| 4 | [Gesture Vocabulary and Recognition](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-04-hand-landmarks/README.md) |
+| 5 | [Gesture Validation and Command Supervision](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-05-gesture-classification/README.md) |
+| 6 | [Integrated Gesture Navigation in MuJoCo](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-06-mock-command-mapping/README.md) |
+| 7 | [Go2 hardware inventory and Windows setup](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-07-gesture-simulation/README.md) |
+| 8 | [Stationary Go2 communication checkout](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-08-safety-testing/README.md) |
+| 9 | [Clemson Go2 dashboard and supervised gesture navigation](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-09-system-evaluation/README.md) |
+| 10 | [Physical Go2 maze construction and navigation](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-10-ros-hardware-readiness/README.md) |
+| 11 | [Go2 reliability testing and final demonstration](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-11-supervised-go1/README.md) |
+| 12 | [Contingency and evaluation, if available](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-12-final-demonstration/README.md) |
 
 ## Week 1 activity resources
 
@@ -61,8 +63,8 @@ Complete these in order before submitting your individual summary:
 1. Read the goal and prerequisites.
 2. Complete the activities with your team.
 3. Save screenshots, terminal output, plots, or test results locally.
-4. Save your individual summary under `course/student-work/<team>/<first-last>/weekly-summaries/`.
-5. Commit and push only that summary to your team branch until Week 5.
+4. Save your individual summary under `course/student-work/<team>/<first-last>/week-XX/`.
+5. Commit and push your weekly README report and any optional small media; full data and code experiments stay local.
 6. Review the completion checklist before moving forward.
 
 [Open the project roadmap →]({{ '/roadmap/' | prepend: site.baseurl }})

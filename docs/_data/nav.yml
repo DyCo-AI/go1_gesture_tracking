@@ -26,3 +26,7 @@ items:
   - url: /resources/
     name: Resources
     icon_class: fas fa-book
+
+  - url: /student-work/
+    name: Student Work
+    icon_class: fas fa-file-alt

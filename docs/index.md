@@ -2,6 +2,14 @@
 layout: home
 ---
 
+> **Current course implementation:** the course keeps its Go1 name. Students use
+> Go1 simulation first, then **Go2 on Windows 11 over Wi-Fi/WebRTC**. Physical Go1
+> integration is under development; Go1/ROS/Jetson/ZED descriptions are legacy
+> architecture references, not the hardware instructions for this course version.
+> Use the [student code and weekly labs](https://github.com/sriram-2502/go1-mujoco-playground)
+> and [current Go2 onboarding](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md).
+
+
 <figure class="course-hero">
   <img src="{{ '/_images/poster_chatgpt3.png' | prepend: site.baseurl }}" alt="Concept artwork showing human gestures translated into intelligent motion for a Unitree Go1">
   <figcaption>From human gestures to intelligent robot motion: mission-control concept artwork for the Fall 2026 Creative Inquiry project.</figcaption>
@@ -25,23 +33,23 @@ layout: home
 
 ## Your Mission
 
-Build an AI-enabled mission-control interface for the Unitree Go1 quadruped
-robot. Your laptop webcam will recognize hand gestures while the robot's live
+Build an AI-enabled mission-control interface for a Unitree quadruped.
+This version uses Go1 simulation followed by Go2 hardware. Your laptop webcam will recognize hand gestures while the robot's live
 camera feed becomes your only view of the maze. You will transform gestures such
 as *forward*, *turn*, and *stop* into bounded robot velocity commands using
 motion planning, control design, and safety logic.
 
 Start with laptop-webcam experiments and mock commands. Finish with a live team
-challenge: guide the Go1 through a student-built modular maze safely, quickly,
+challenge: guide the Go2 through a student-built modular maze safely, quickly,
 and without touching the walls.
 
 <div class="pipeline-strip" aria-label="Project pipeline">
   <div><strong>1. Perceive</strong><span>Recognize human intent</span></div>
   <div><strong>2. Design</strong><span>Plan bounded motion</span></div>
-  <div><strong>3. Control</strong><span>Command the Go1 safely</span></div>
+  <div><strong>3. Control</strong><span>Command the robot safely</span></div>
 </div>
 
-## Quadruped Robot and Camera Setup
+## Earlier Go1 Robot and Camera Reference
 
 <div class="setup-grid">
   <figure>
@@ -71,12 +79,14 @@ teams progress.
 
 [View the complete project overview and learning outcomes →]({{ '/project/' | prepend: site.baseurl }})
 
+[Weekly reports and experiment data]({{ '/student-work/' | prepend: site.baseurl }}): individual README reports on team branches; full recordings stay local.
+
 ## Project Roadmap
 
 The project progresses from laboratory orientation and laptop-only development
 to gesture recognition, mock robot commands, live camera integration, safety
 validation, and supervised maze-navigation demonstrations. Students establish
-each subsystem safely before combining it with the physical Go1.
+each subsystem safely before combining it with the physical Go2.
 
 [View the detailed 12-week project roadmap →]({{ '/roadmap/' | prepend: site.baseurl }})
 

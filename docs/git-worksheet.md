@@ -4,6 +4,8 @@ title: Week 1 Git Worksheet
 permalink: /git-worksheet/
 ---
 
+[Submission format, optional media, and local data]({{ '/student-work/' | prepend: site.baseurl }}).
+
 # Week 1 Git Worksheet
 
 Use this sheet during the onboarding session. Replace values in angle brackets
@@ -75,7 +77,7 @@ git status
 Create this file inside your student folder:
 
 ```text
-course/student-work/team-alpha/first-last/weekly-summaries/week-01.md
+course/student-work/team-alpha/first-last/week-01/README.md
 ```
 
 Use your own name and replace `team-alpha` with `team-bravo` when applicable.
@@ -86,15 +88,14 @@ Record your goal, what you did, evidence, one problem, and one thing you learned
 ## 6. Save and publish your work
 
 ```powershell
-git add course/student-work/team-alpha/first-last/weekly-summaries/week-01.md
+git add course/student-work/team-alpha/first-last/week-01/README.md
 git status
 git commit -m "Add week 01 summary"
 git log --oneline -1
 git push -u origin team-alpha
 ```
 
-Team Bravo should replace both `team-alpha` values with `team-bravo`. Until Week
-5, push weekly summaries only; do not push code changes.
+Team Bravo should replace both `team-alpha` values with `team-bravo`. Submit weekly README reports throughout the course; keep code experiments local unless explicitly requested by the instructor.
 
 After pushing, refresh your team branch on GitHub and confirm that the file is
 visible there.

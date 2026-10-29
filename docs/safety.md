@@ -4,6 +4,14 @@ title: Safety Principles
 permalink: /safety/
 ---
 
+> **Current course implementation:** the course keeps its Go1 name. Students use
+> Go1 simulation first, then **Go2 on Windows 11 over Wi-Fi/WebRTC**. Physical Go1
+> integration is under development; Go1/ROS/Jetson/ZED descriptions are legacy
+> architecture references, not the hardware instructions for this course version.
+> Use the [student code and weekly labs](https://github.com/sriram-2502/go1-mujoco-playground)
+> and [current Go2 onboarding](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md).
+
+
 Safety is a system requirement and a prerequisite for hardware access.
 
 ## Command Rules

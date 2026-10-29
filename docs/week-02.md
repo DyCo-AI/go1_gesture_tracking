@@ -4,6 +4,8 @@ title: Week 2 - Go1 controller behavior, control, and reinforcement learning
 permalink: /week-02/
 ---
 
+[Submission format, optional media, and local data]({{ '/student-work/' | prepend: site.baseurl }}).
+
 <div class="week-hero">
   <div>
     <p class="eyebrow">WEEK 02 · 2 HOURS · SYSTEMS + CODE</p>
@@ -90,9 +92,8 @@ to make the physical robot fall.
 Work directly on your assigned `team-alpha` or `team-bravo` branch. Do not create
 another branch. Keep the sensitivity experiment local and restore the original
 parameter afterward. Save your work in an individual summary at
-`course/student-work/<team>/<first-last>/weekly-summaries/week-02.md` and push
-only that Markdown file. Code integration begins when the instructor announces
-Week 5.
+`course/student-work/<team>/<first-last>/week-02/README.md` and push
+the README report, with optional small media under the submission policy. Code experiments stay local unless explicitly requested by the instructor.
 
 ## Completion evidence
 

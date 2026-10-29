@@ -9,7 +9,21 @@ publishes the live robot view used by the operator.
 
 Project website: [https://dyco-ai.github.io/go1_gesture_tracking/](https://dyco-ai.github.io/go1_gesture_tracking/)
 
-## Runtime Architecture
+## Course website and current hardware path
+
+The course keeps its Go1 name. It supports learning across Go1 and Go2: this
+version uses Go1 simulation and Go2 Wi-Fi/WebRTC hardware on Windows 11.
+Physical Go1 integration is under development. The ROS/Jetson/ZED scaffolds below
+remain legacy references rather than the current student hardware application.
+
+- [Course website](https://dyco-ai.github.io/go1_gesture_tracking/): schedule, concepts, assignment expectations, and submission policy.
+- [Student code repository](https://github.com/sriram-2502/go1-mujoco-playground): runnable weekly labs and reports.
+- [Current Go2 onboarding](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md): use the instructor-supplied solution bundle until the personal Go2 reference repository is published and a tested revision is selected.
+
+Weekly submissions are individual README reports on assigned team branches;
+full run data stays local. See [student work and data](docs/student-work.md).
+
+## Legacy Go1 Runtime Architecture
 
 The system is distributed across two computers:
 

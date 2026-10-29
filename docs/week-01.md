@@ -4,6 +4,8 @@ title: Week 1 — GitHub onboarding and Go1 baseline
 permalink: /week-01/
 ---
 
+[Submission format, optional media, and local data]({{ '/student-work/' | prepend: site.baseurl }}).
+
 <div class="week-hero">
   <div>
     <p class="eyebrow">WEEK 01 · 2 HOURS · TEAM ONBOARDING</p>
@@ -99,8 +101,8 @@ Most weeks follow the same pattern:
 1. Fetch the latest instructor materials and read the week's activity page.
 2. Open the relevant code in the course repository and understand the baseline.
 3. Complete the worksheet, experiment log, or analysis requested for the week.
-4. Save your individual summary under `course/student-work/<team>/<first-last>/weekly-summaries/` and push only that Markdown file to your team branch.
-5. Keep code experiments local until the instructor announces the Week 5 code-integration milestone.
+4. Save your individual summary under `course/student-work/<team>/<first-last>/week-XX/` and push only that Markdown file to your team branch.
+5. Keep code experiments local throughout the course unless explicitly requested by the instructor.
 
 Documentation is the default deliverable. If you believe a code change would
 improve the system, discuss it with the instructor first. After instructor
@@ -145,7 +147,7 @@ branch. Use a unique filename so teammates do not overwrite one another:
 
 Save your completed copy as:
 
-<div class="code-callout">course/student-work/team-alpha/first-last/weekly-summaries/week-01.md</div>
+<div class="code-callout">course/student-work/team-alpha/first-last/week-01/README.md</div>
 
 Use `team-bravo` instead of `team-alpha` when applicable. Create your own
 `first-last` folder so no teammate overwrites your summary.
@@ -166,5 +168,5 @@ By the end of the session, you should have:
 
 - the correct team branch checked out;
 - a screenshot or short recording of the baseline simulation;
-- your individual `course/student-work/<team>/<first-last>/weekly-summaries/week-01.md` committed and pushed to the shared team branch; and
+- your individual `course/student-work/<team>/<first-last>/week-01/README.md` committed and pushed to the shared team branch; and
 - a one-sentence explanation of the difference between main and a team branch.

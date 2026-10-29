@@ -4,55 +4,38 @@ title: Project Roadmap
 permalink: /roadmap/
 ---
 
-## Current Week 1
+The course retains its Go1 name. **Weeks 1–6 use the existing Go1 simulator;
+Weeks 7–11 use Go2 over Wi-Fi/WebRTC on Windows 11. Week 12 is contingency and
+evaluation if available.** Physical Go1 integration is under development.
+The schedule can adjust for holidays and hardware qualification.
 
-Begin with [GitHub onboarding and the Go1 baseline]({{ '/week-01/' | prepend: site.baseurl }}).
-This two-hour session covers repository access, team branches, running the
-existing simulation baseline, and documenting the work.
+The website sets course expectations; linked lab READMEs hold executable setup,
+examples, and troubleshooting. Finish the Week 6 simulation checkpoint before
+hardware checkout. Physical motion requires instructor approval and supervision.
 
-[View all weekly activities]({{ '/weekly-activities/' | prepend: site.baseurl }}).
+| Week | Weekly lab |
+| --- | --- |
+| 1 | [GitHub onboarding and Go1 baseline](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-01-github-onboarding/README.md) |
+| 2 | [Go1 controller behavior, control, and reinforcement learning](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-02-go1-controller/README.md) |
+| 3 | [Webcam, MediaPipe, and gesture intent](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-03-webcam-basics/README.md) |
+| 4 | [Gesture Vocabulary and Recognition](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-04-hand-landmarks/README.md) |
+| 5 | [Gesture Validation and Command Supervision](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-05-gesture-classification/README.md) |
+| 6 | [Integrated Gesture Navigation in MuJoCo](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-06-mock-command-mapping/README.md) |
+| 7 | [Go2 hardware inventory and Windows setup](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-07-gesture-simulation/README.md) |
+| 8 | [Stationary Go2 communication checkout](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-08-safety-testing/README.md) |
+| 9 | [Clemson Go2 dashboard and supervised gesture navigation](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-09-system-evaluation/README.md) |
+| 10 | [Physical Go2 maze construction and navigation](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-10-ros-hardware-readiness/README.md) |
+| 11 | [Go2 reliability testing and final demonstration](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-11-supervised-go1/README.md) |
+| 12 | [Contingency and evaluation, if available](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-12-final-demonstration/README.md) |
 
-The next activity is [Week 2: Read, measure, and modify the Go1 controller]({{ '/week-02/' | prepend: site.baseurl }}).
+## Evidence throughout the course
 
-The anticipated 12-week progression is flexible for holidays, preparation,
-make-up work, additional testing, and changes in project progress. Weeks 1-5
-build the gesture-to-Go1 simulation path, Weeks 6-7 cover supervised hardware
-integration, and Week 8 begins the final project phase.
+Submit individual weekly README reports on the assigned team branch. Keep full
+run recordings and data local and use them for the end-of-course Markdown report.
+See [student work and data]({{ '/student-work/' | prepend: site.baseurl }}).
 
-## Weekly Activities
+For hardware use the instructor-supplied, versioned Go2 solution bundle; ask for
+the AES key privately. Join the Go2 hotspot rather than Clemson campus Wi-Fi.
+Stationary checks and software tests do not establish physical stopping behavior.
 
-| Week | Topic and Activity |
-|:--:|:--|
-| 1 | Project introduction, human–robot teaming objective, laboratory orientation, and robot safety |
-| 2 | Read, measure, and modify the Go1 controller; basic control systems and reinforcement learning |
-| 3 | Webcam input and hand tracking |
-| 4 | Gesture recognition and temporal filtering |
-| 5 | Gesture-to-command control in MuJoCo |
-| 6 | Hardware interface and safety checkout |
-| 7 | Supervised hardware integration |
-| 8 | Final project definition and architecture |
-| 9 | Final project implementation |
-| 10 | Reliability testing and maze preparation |
-| 11 | Supervised final demonstration rehearsal |
-| 12 | Final project demonstration and technical review |
-
-<div class="section-spacer" aria-hidden="true"></div>
-
-## Course Milestones
-
-Students progress through the following technical checkpoints:
-
-1. **Development environment:** Verify the laptop software environment, webcam, and version-control workflow.
-2. **Gesture recognition:** Demonstrate the starter gesture vocabulary using a laptop webcam and document its performance.
-3. **Mock commands:** Show that gestures produce bounded abstract commands without operating the physical robot.
-4. **Safety behavior:** Demonstrate default-stop behavior, command expiration, confidence checks, and obstacle-proximity stopping.
-5. **Remote interface:** Operate laptop gesture recognition alongside the live Go1 camera feed.
-6. **Maze design:** Build an instructor-approved modular maze that meets dimensional, visibility, and safety requirements.
-7. **Final integration:** Navigate the Go1 through the approved maze under supervision using the complete gesture-based interface.
-
-Laptop-webcam, mock-command, and safety milestones must be completed before live
-robot testing. Hardware access remains subject to instructor approval and
-laboratory supervision.
-
-For the complete course requirements, see the
-[preliminary Fall 2026 syllabus]({{ '/course_docs/CI_COURSE_SYLLABUS_FALL_2026.pdf' | prepend: site.baseurl }}).
+[Weekly activities]({{ '/weekly-activities/' | prepend: site.baseurl }})
