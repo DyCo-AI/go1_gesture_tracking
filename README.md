@@ -18,7 +18,7 @@ remain legacy references rather than the current student hardware application.
 
 - [Course website](https://dyco-ai.github.io/go1_gesture_tracking/): schedule, concepts, assignment expectations, and submission policy.
 - [Student code repository](https://github.com/sriram-2502/go1-mujoco-playground): runnable weekly labs and reports.
-- [Current Go2 onboarding](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md): clone the [Go2 setup repository](https://github.com/sriram-2502/unitree-go2-setup) and record the instructor-approved Git commit.
+- [Current Go2 onboarding](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md): clone the [Go2 setup repository](https://github.com/sriram-2502/go2-webrtc-gesture-nav) and record the instructor-approved Git commit.
 
 Weekly submissions are individual README reports on assigned team branches;
 full run data stays local. See [student work and data](docs/student-work.md).
