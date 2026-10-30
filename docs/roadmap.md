@@ -34,8 +34,8 @@ Submit individual weekly README reports on the assigned team branch. Keep full
 run recordings and data local and use them for the end-of-course Markdown report.
 See [student work and data]({{ '/student-work/' | prepend: site.baseurl }}).
 
-For hardware use the instructor-supplied, versioned Go2 solution bundle; ask for
-the AES key privately. Join the Go2 hotspot rather than Clemson campus Wi-Fi.
+For hardware clone the [Go2 setup repository](https://github.com/sriram-2502/unitree-go2-setup); record its
+Git commit and ask the instructor for the AES key privately. Join the Go2 hotspot rather than Clemson campus Wi-Fi.
 Stationary checks and software tests do not establish physical stopping behavior.
 
 [Weekly activities]({{ '/weekly-activities/' | prepend: site.baseurl }})
