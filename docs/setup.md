@@ -12,7 +12,7 @@ permalink: /setup/
 > and [current Go2 onboarding](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md).
 
 
-## Current Go2 hardware route
+## Go2
 
 For this course version, use the [Go2 gesture-navigation instructor reference](https://github.com/sriram-2502/go2-gesture-nav)
 with the [student hardware onboarding](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md).
@@ -21,7 +21,7 @@ dependencies, and the local recording/replay workflow. The WebRTC application
 runs on Windows without ROS. Request the assigned robot's credentials privately
 and connect through its Wi-Fi hotspot, not campus Wi-Fi.
 
-## Earlier Go1 architecture reference
+## Go1
 
 The earlier Go1 project uses ROS Noetic across two computers: the operator laptop and the
 Jetson AGX Xavier mounted on the Unitree Go1. Gesture perception, robot-view
