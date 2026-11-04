@@ -12,9 +12,13 @@ permalink: /resources/
 > and [current Go2 onboarding](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md).
 
 
-## Project Repository
+## Course code and robot references
 
-- [Mission Control project on GitHub](https://github.com/DyCo-AI/go1_gesture_tracking)
+- [Course website repository](https://github.com/DyCo-AI/go1_gesture_tracking): schedule, concepts, assignments, and submission expectations.
+- [Student code and weekly labs](https://github.com/sriram-2502/go1-mujoco-playground): Python, MediaPipe, simulation, and weekly work.
+- [Go2 gesture-navigation instructor reference](https://github.com/sriram-2502/go2-gesture-nav): dashboard demos, default gestures, Windows setup, and recording/replay.
+- [Bring your own classifier](https://github.com/sriram-2502/go2-gesture-nav/blob/main/webrtc/STUDENT_INTEGRATION.md): reuse earlier gesture work at the Python boundary while preserving supervision.
+- [DyCo-AI Lab Robots](https://dyco-ai.github.io/lab-robots/): basic robot onboarding and links to independent ROS/WebRTC starters.
 
 ## Course Documents
 
@@ -31,7 +35,7 @@ permalink: /resources/
 
 ## Repository Materials
 
-Setup instructions, starter code, interface definitions, datasets, and team
-deliverables will be added to the repository as the project develops. Hardware
-details and command limits must follow the laboratory's current approved
-documentation.
+Use the linked code repositories for installation and executable examples.
+This website owns course expectations. Keep full recordings and raw experiment
+data local; submit weekly reports according to the current course policy.
+Hardware details and command limits must follow the instructor-approved setup.

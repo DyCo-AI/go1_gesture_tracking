@@ -49,6 +49,20 @@ and without touching the walls.
   <div><strong>3. Control</strong><span>Command the robot safely</span></div>
 </div>
 
+## Go2 gesture-navigation instructor reference
+
+The current hardware reference is [**go2-gesture-nav**](https://github.com/sriram-2502/go2-gesture-nav): a Windows 11
+dashboard with Go2 camera/voxels, MediaPipe hand landmarks, supervised velocity
+requests, and local recording/replay.
+
+- [See the recorded dashboard demos](https://github.com/sriram-2502/go2-gesture-nav#go2-gesture-navigation) and [default gesture guide](https://github.com/sriram-2502/go2-gesture-nav#default-gestures).
+- Follow [the student hardware onboarding](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md) after the simulation checkpoint.
+- Bring your earlier gesture classifier into [the reference integration point](https://github.com/sriram-2502/go2-gesture-nav/blob/main/webrtc/STUDENT_INTEGRATION.md), while retaining command supervision and robot checks.
+
+Use the reference to understand and extend the system; keep your own development
+history and follow the course's team-branch README submission policy. Hardware
+motion remains instructor-supervised, with credentials obtained privately.
+
 ## Earlier Go1 Robot and Camera Reference
 
 <div class="setup-grid">

@@ -39,6 +39,12 @@ set of activities, and evidence to save in the team's code repository.
 | 11 | [Go2 reliability testing and final demonstration](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-11-supervised-go1/README.md) |
 | 12 | [Contingency and evaluation, if available](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-12-final-demonstration/README.md) |
 
+For the **Weeks 7–11 hardware phase**, follow the
+[Go2 hardware onboarding](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md)
+and [go2-gesture-nav instructor reference](https://github.com/sriram-2502/go2-gesture-nav). Preview its recorded
+dashboard demos and default gestures before the lab session. Bring your own
+gesture work from the earlier weeks; preserve the supplied command supervision.
+
 ## Week 1 activity resources
 
 Complete these in order before submitting your individual summary:
