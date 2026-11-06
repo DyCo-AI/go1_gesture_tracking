@@ -39,12 +39,24 @@ Upon successful completion of the course, students will be able to:
 
 The operator works from a mission-control station without direct visual contact
 with the robot or maze. Using only the live onboard video and hand gestures, the
-team guides the Go1 through a modular course. A successful system must finish the
+team guides the Go2 through a student-built modular maze. A successful system must finish the
 course while respecting safety boundaries and remaining immediately stoppable.
 
 ## Open-Ended Extensions
 
-Once the starter system is reliable, teams can investigate shared autonomy,
-obstacle-aware command arbitration, new gesture vocabularies, approved body-pose
-commands, gait selection, or short motion primitives. Extensions are evaluated
-for usefulness, repeatability, and safety—not novelty alone.
+The [instructor dashboard demonstration]({{ '/#see-the-instructor-baseline-in-action' | prepend: site.baseurl }})
+shows the baseline students will extend. Teams own both the interface extensions
+and the design of their modular maze, using it as a repeatable model of features
+found in unstructured environments.
+
+1. **Establish the baseline.** Navigate a flat cardboard maze using gesture-to-velocity commands and the onboard camera. Record completion time, wall contacts, and stop responses.
+2. **Design your extension.** Add new gesture commands, gait selection, or jumping controls where the assigned robot supports them. Explain when each behavior helps and how it is selected, bounded, and stopped; validate the logic in simulation first.
+3. **Build the experiment.** Rearrange passages and obstacles to compare baseline and extended navigation. Optional terrain or jump modules need separate instructor review before construction and hardware trials.
+4. **Evaluate the result.** Repeat runs on the same layout, compare performance, and explain recognition errors, delays, and behavior-selection decisions using recordings.
+
+The required demonstration remains a flat maze. Gait changes, jumping, and terrain
+modules are optional, instructor-approved extensions developed through simulation
+and supervised hardware testing. Preserve the supplied command supervision and
+robot checks; each added behavior needs a validated interruption or recovery
+procedure appropriate to that behavior. Extensions are evaluated for usefulness,
+repeatability, and safety.

@@ -49,13 +49,43 @@ and without touching the walls.
   <div><strong>3. Control</strong><span>Command the robot safely</span></div>
 </div>
 
-## Go2 gesture-navigation instructor reference
+## See the instructor baseline in action
 
-The current hardware reference is [**go2-gesture-nav**](https://github.com/sriram-2502/go2-gesture-nav): a Windows 11
-dashboard with Go2 camera/voxels, MediaPipe hand landmarks, supervised velocity
-requests, and local recording/replay.
+This 15-second dashboard clip shows the **instructor's baseline version**:
+hand-gesture recognition alongside the Go2's onboard camera, voxel view, and
+requested, supervised, transmitted, and measured velocity. It is the starting
+point students will build on throughout the course.
 
-- [See the recorded dashboard demos](https://github.com/sriram-2502/go2-gesture-nav#go2-gesture-navigation) and [default gesture guide](https://github.com/sriram-2502/go2-gesture-nav#default-gestures).
+<figure class="baseline-demo">
+  <video controls muted playsinline preload="none" width="1280" height="648" poster="{{ '/assets/go2-instructor-baseline.png' | prepend: site.baseurl }}" aria-label="15-second instructor baseline: Go2 gesture-navigation dashboard" aria-describedby="baseline-caption">
+    <source src="{{ '/assets/go2-instructor-baseline.mp4' | prepend: site.baseurl }}" type="video/mp4">
+    Your browser does not support embedded video. <a href="{{ '/assets/go2-instructor-baseline.mp4' | prepend: site.baseurl }}">Watch the dashboard clip.</a>
+  </video>
+  <figcaption id="baseline-caption">Instructor baseline · 15 seconds · silent. Robot views, extracted hand landmarks, and velocity feedback share one dashboard. Jumping and gait extensions are student project directions, not demonstrated in this clip.</figcaption>
+</figure>
+
+### Your next step: build the maze, extend the robot
+
+Teams will **design and build a modular maze** that represents features of
+unstructured environments: narrow passages, irregular layouts, and changing
+obstacle arrangements. Start with flat cardboard walls, then use the same
+course to compare the baseline with your own extensions.
+
+- **Extend the interface:** bring your own gesture classifier and add deliberate commands for new behaviors.
+- **Explore robot behaviors:** develop gait-selection and jumping controls as instructor-approved extensions, first in simulation and then through supervised hardware tests on a supported robot.
+- **Build and evaluate:** rearrange your maze, navigate from the robot's camera view, and compare completion time, wall contacts, and stop responses using recorded runs.
+
+The goal is to turn a working baseline into your team's own navigation system.
+Jumping and terrain modules are optional extensions requiring separate
+instructor approval; the core challenge remains a flat maze.
+
+### Use the reference to get started
+
+The [**go2-gesture-nav instructor reference**](https://github.com/sriram-2502/go2-gesture-nav)
+provides the Windows 11 dashboard, supervised velocity commands, and local
+recording/replay.
+
+- Explore the [system design](https://github.com/sriram-2502/go2-gesture-nav#system-design) and [default gesture guide](https://github.com/sriram-2502/go2-gesture-nav#default-gestures).
 - Follow [the student hardware onboarding](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md) after the simulation checkpoint.
 - Bring your earlier gesture classifier into [the reference integration point](https://github.com/sriram-2502/go2-gesture-nav/blob/main/webrtc/STUDENT_INTEGRATION.md), while retaining command supervision and robot checks.
 
@@ -106,13 +136,11 @@ each subsystem safely before combining it with the physical Go2.
 
 ## Open-Ended Team Challenge
 
-After the starter system works reliably, teams may propose additional gestures,
-instructor-approved body poses or gaits, and time-limited motion primitives.
-Every extension must use the approved command and safety interfaces, remain
-bounded, and be interruptible by the stop command.
-
-The required course challenge uses a flat cardboard maze. Optional terrain
-modules are considered only after separate instructor review and validation.
+Build on the [instructor baseline](#see-the-instructor-baseline-in-action) with
+your own gesture vocabulary, gait selection, or instructor-approved jumping
+controls. Design the maze as part of the experiment and measure what each
+extension changes. See the [team challenge and extension progression]({{ '/project/#open-ended-extensions' | prepend: site.baseurl }})
+for how to move from a flat maze to optional, reviewed terrain modules.
 
 ## About the DyCo-AI Lab
 
