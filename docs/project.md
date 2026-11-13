@@ -50,9 +50,14 @@ and the design of their modular maze, using it as a repeatable model of features
 found in unstructured environments.
 
 1. **Establish the baseline.** Navigate a flat cardboard maze using gesture-to-velocity commands and the onboard camera. Record completion time, wall contacts, and stop responses.
-2. **Design your extension.** Add new gesture commands, gait selection, or jumping controls where the assigned robot supports them. Explain when each behavior helps and how it is selected, bounded, and stopped; validate the logic in simulation first.
+2. **Design your extension.** Add new gesture commands, compare the supplied Jump once / Bound gait behaviors, or design a deliberate selection interface where the assigned robot supports it. These buttons already exist in the personal Clemson reference; implementing them again is not required. Explain behavior selection, bounds, interruption/recovery, and usefulness. Validate application logic with offline tests before separately approved hardware trials; the existing Go1 simulator does not qualify Go2 jumping.
 3. **Build the experiment.** Rearrange passages and obstacles to compare baseline and extended navigation. Optional terrain or jump modules need separate instructor review before construction and hardware trials.
 4. **Evaluate the result.** Repeat runs on the same layout, compare performance, and explain recognition errors, delays, and behavior-selection decisions using recordings.
+
+Use the [course setup progression]({{ '/setup/' | prepend: site.baseurl }}) and
+[reference behavior/recovery guide](https://github.com/sriram-2502/go2-gesture-nav/blob/main/webrtc/clemson/CONTROL_EXTENSIONS.md)
+for what is implemented and what still needs qualification. The older dashboard
+clip does not demonstrate the new buttons.
 
 The required demonstration remains a flat maze. Gait changes, jumping, and terrain
 modules are optional, instructor-approved extensions developed through simulation

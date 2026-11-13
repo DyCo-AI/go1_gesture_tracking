@@ -39,11 +39,25 @@ set of activities, and evidence to save in the team's code repository.
 | 11 | [Go2 reliability testing and final demonstration](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-11-supervised-go1/README.md) |
 | 12 | [Contingency and evaluation, if available](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/week-12-final-demonstration/README.md) |
 
-For the **Weeks 7–11 hardware phase**, follow the
-[Go2 hardware onboarding](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md)
-and [go2-gesture-nav instructor reference](https://github.com/sriram-2502/go2-gesture-nav). Preview its recorded
-dashboard demos and default gestures before the lab session. Bring your own
-gesture work from the earlier weeks; preserve the supplied command supervision.
+| Stage | Use this repository / interface |
+| --- | --- |
+| Weeks 1–6: simulation and reports | [go1-mujoco-playground](https://github.com/sriram-2502/go1-mujoco-playground); individual reports on the assigned team branch |
+| Week 7: stationary Basic checkout | [Clemson DyCo-AI/go2-webRTC](https://github.com/DyCo-AI/go2-webRTC); Basic UI on port 5173, no MediaPipe |
+| Weeks 8–9 onward: gesture hardware | [Personal go2-gesture-nav](https://github.com/sriram-2502/go2-gesture-nav); Clemson UI on port 5174 plus the Python gesture service |
+
+For installation and daily operation, follow
+[the course hardware guide](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md).
+Do not mix the Basic starter's root-level commands with the personal repo's
+Clemson `webrtc\` commands. Switch clients rather than connecting both at once.
+The personal UI already contains Jump once and Bound gait; activating them is
+an optional, separately approved experiment after the ordinary walking baseline.
+[The setup page]({{ '/setup/' | prepend: site.baseurl }}) explains the controls,
+recovery, version checks, and current qualification limits.
+
+`creative-inquiry-dev` is instructor authoring work in the playground repo.
+Students follow the published `main` lab links and their assigned team-branch
+update/report procedure. The physical UI runtime is a separate checkout of the
+personal hardware repo; switching the playground branch does not update it.
 
 ## Week 1 activity resources
 

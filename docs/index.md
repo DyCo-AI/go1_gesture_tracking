@@ -61,7 +61,7 @@ point students will build on throughout the course.
     <source src="{{ '/assets/go2-instructor-baseline.mp4' | prepend: site.baseurl }}" type="video/mp4">
     Your browser does not support embedded video. <a href="{{ '/assets/go2-instructor-baseline.mp4' | prepend: site.baseurl }}">Watch the dashboard clip.</a>
   </video>
-  <figcaption id="baseline-caption">Instructor baseline · 15 seconds · silent. Robot views, extracted hand landmarks, and velocity feedback share one dashboard. Jumping and gait extensions are student project directions, not demonstrated in this clip.</figcaption>
+  <figcaption id="baseline-caption">Instructor baseline · 15 seconds · silent. Robot views, extracted hand landmarks, and velocity feedback share one dashboard. This clip predates the supplied Jump once / Bound gait buttons; those optional behaviors are not demonstrated here.</figcaption>
 </figure>
 
 ### Your next step: build the maze, extend the robot
@@ -72,7 +72,7 @@ obstacle arrangements. Start with flat cardboard walls, then use the same
 course to compare the baseline with your own extensions.
 
 - **Extend the interface:** bring your own gesture classifier and add deliberate commands for new behaviors.
-- **Explore robot behaviors:** develop gait-selection and jumping controls as instructor-approved extensions, first in simulation and then through supervised hardware tests on a supported robot.
+- **Explore robot behaviors:** study the supplied Jump once / Bound gait controls or design deliberate behavior-selection interfaces. Check the existing transport/recovery logic offline before separately approved hardware trials; the Go1 simulation baseline is not a Go2 jumping model.
 - **Build and evaluate:** rearrange your maze, navigate from the robot's camera view, and compare completion time, wall contacts, and stop responses using recorded runs.
 
 The goal is to turn a working baseline into your team's own navigation system.
@@ -81,9 +81,17 @@ instructor approval; the core challenge remains a flat maze.
 
 ### Use the reference to get started
 
+| Stage | Use this repository / interface |
+| --- | --- |
+| Weeks 1–6: simulation and reports | [go1-mujoco-playground](https://github.com/sriram-2502/go1-mujoco-playground); individual reports on the assigned team branch |
+| Week 7: stationary Basic checkout | [Clemson DyCo-AI/go2-webRTC](https://github.com/DyCo-AI/go2-webRTC); Basic UI on port 5173, no MediaPipe |
+| Weeks 8–9 onward: gesture hardware | [Personal go2-gesture-nav](https://github.com/sriram-2502/go2-gesture-nav); Clemson UI on port 5174 plus the Python gesture service |
+
 The [**go2-gesture-nav instructor reference**](https://github.com/sriram-2502/go2-gesture-nav)
-provides the Windows 11 dashboard, supervised velocity commands, and local
-recording/replay.
+provides the Windows 11 Clemson dashboard, supervised velocity commands,
+local recording/replay, and the optional Jump once / Bound gait controls. Use
+[the course setup page]({{ '/setup/' | prepend: site.baseurl }}) to distinguish
+the Week 7 Basic starter from the later personal Clemson UI.
 
 - Explore the [system design](https://github.com/sriram-2502/go2-gesture-nav#system-design) and [default gesture guide](https://github.com/sriram-2502/go2-gesture-nav#default-gestures).
 - Follow [the student hardware onboarding](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md) after the simulation checkpoint.
@@ -137,8 +145,8 @@ each subsystem safely before combining it with the physical Go2.
 ## Open-Ended Team Challenge
 
 Build on the [instructor baseline](#see-the-instructor-baseline-in-action) with
-your own gesture vocabulary, gait selection, or instructor-approved jumping
-controls. Design the maze as part of the experiment and measure what each
+your own gesture vocabulary, experiments using the supplied gait/jump controls,
+or a deliberate behavior-selection interface. Design the maze as part of the experiment and measure what each
 extension changes. See the [team challenge and extension progression]({{ '/project/#open-ended-extensions' | prepend: site.baseurl }})
 for how to move from a flat maze to optional, reviewed terrain modules.
 

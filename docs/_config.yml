@@ -5,7 +5,7 @@ course_description: |
   transformed into intelligent, safe robot motion. Students develop a
   computer-vision interface using their laptop webcams, translate recognized
   intent into bounded motion commands, integrate the system with the live camera
-  feed from the laboratory's Unitree Go1, and guide the robot through a modular
+  feed from the laboratory's Unitree Go2 after Go1 simulation, and guide the robot through a modular
   maze without direct visual contact.
 
 course_semester: "Creative Inquiry Course · ME 2900/3900/4900 · 1 Credit"
