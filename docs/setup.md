@@ -12,44 +12,49 @@ permalink: /setup/
 > and [current Go2 onboarding](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md).
 
 
-## Current Go2 course setup
+## One Go2 setup for the hardware phase
 
-| Stage | Use this repository / interface |
+Use **[sriram-2502/go2-gesture-nav](https://github.com/sriram-2502/go2-gesture-nav)**
+for Weeks 7 onward. It is a standalone Windows gesture project with **no ROS
+workspace and no `webrtc/` wrapper folder**. WebRTC is the built-in robot
+connection method, not another installation students need to manage.
+
+Follow the [project quick start](https://github.com/sriram-2502/go2-gesture-nav#1-install-once)
+for installation and the [course hardware checklist](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md)
+for lab expectations. No separate Basic UI repository is needed.
+
+| Step | Where / command from the personal repo root |
 | --- | --- |
-| Weeks 1–6: simulation and reports | [go1-mujoco-playground](https://github.com/sriram-2502/go1-mujoco-playground); individual reports on the assigned team branch |
-| Week 7: stationary Basic checkout | [Clemson DyCo-AI/go2-webRTC](https://github.com/DyCo-AI/go2-webRTC); Basic UI on port 5173, no MediaPipe |
-| Weeks 8–9 onward: gesture hardware | [Personal go2-gesture-nav](https://github.com/sriram-2502/go2-gesture-nav); Clemson UI on port 5174 plus the Python gesture service |
+| Install Python dependencies/model | Anaconda Prompt: `pip install -r requirements.txt`, then `python -m gesture_preview.download_model` in `go2wifi` |
+| Install dashboard once | PowerShell: `powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\\setup-ui.ps1` |
+| Start hand tracking | Anaconda Prompt: `python -m gesture_preview.server` |
+| Start dashboard | PowerShell: `powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\\start-ui.ps1` |
 
-Follow the [course hardware guide](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md#which-setup-to-use)
-for the transition. The Week 7 starter uses root-level setup/start scripts;
-the personal Clemson setup uses `webrtc\setup-ui.ps1 -Edition clemson` and
-`webrtc\start-ui.ps1 -Edition clemson`, plus a separate Python terminal.
-Keep the two checkouts separate, and disconnect/stop Basic before opening
-Clemson. Neither course path needs ROS on the Windows operator laptop.
+Open **http://127.0.0.1:5174/**. The Python service uses **8766** through the
+dashboard proxy. Install while internet is available, then join the Go2 hotspot.
+Obtain the private credentials from the instructor. Use only one robot client.
 
-For the personal UI, follow its [quick start](https://github.com/sriram-2502/go2-gesture-nav#quick-start-on-windows-11)
-or [update/restart instructions](https://github.com/sriram-2502/go2-gesture-nav#update-and-restart).
-After restarting, hard-refresh the browser and match **Navigation | UI build ID**
-to the launcher. That confirms the loaded code, not physical qualification.
-Click **Enable gesture control** directly; no palm/fist startup pose is needed.
-New tracking frames, fresh video/state, and the consistency hold still gate motion.
+**Week 7:** preview and stationary connection/camera/state checks, with movement
+disabled. **Weeks 8–9 onward:** use the same setup for reviewed stop checks,
+supervised walking, recording/replay, and the maze. The Go1 simulator remains
+a separate teaching checkout, not a hardware runtime.
 
-The personal Clemson UI already supplies **Jump once** (one forward-jump
-request) and **Bound gait** (a persistent gait selection followed by explicit
-gesture enabling). They are buttons, not default hand gestures. Both pause
-navigation on selection and use the existing robot connection. See
-[behavior selection and recovery](https://github.com/sriram-2502/go2-gesture-nav/blob/main/webrtc/clemson/CONTROL_EXTENSIONS.md).
-The maintainer has reported a successful forward jump and landing; that is not
-full interruption/recovery qualification. Bound requires its own supervised
-hardware checks. These are optional instructor-approved experiments; the required
-baseline remains ordinary walking in a flat maze. A sent/acknowledged request
-does not establish completed motion.
+After updating, restart both services, hard-refresh, and match **Navigation | UI
+build ID** to the launcher. Enable gesture control is a direct click; fresh
+tracking/video/state and the gesture hold still gate motion.
 
-Record the approved hardware-repo commit and UI build ID in your report. Obtain
-the assigned robot's credentials privately and use its Go2 hotspot, not campus
-Wi-Fi. The Basic starter does not include Clemson's gesture panel or Jump/Bound
-workflow. Do not substitute its unrestricted upstream action grid for the
-supervised course interface.
+The UI already supplies **Jump once** and **Bound gait** as buttons, not default
+hand gestures. They share the robot connection and pause navigation on selection.
+Bound needs successful mode feedback and explicit gesture enabling afterward.
+These are optional, separately approved experiments; ordinary walking remains
+the required baseline. A reported successful jump is not full recovery
+qualification, and Bound needs its own supervised checks. Read
+[behavior and recovery](https://github.com/sriram-2502/go2-gesture-nav/blob/main/dashboard/CONTROL_EXTENSIONS.md).
+Stationary Look Around remains disabled.
+
+The personal repo's old `webrtc/` launch commands are obsolete after the layout
+refactor. Follow its migration note; the existing `go2wifi` environment and saved
+recordings can be reused. The research ROS starter is separate from this course.
 
 ## Earlier Go1 / ROS reference
 

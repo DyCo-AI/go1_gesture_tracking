@@ -84,18 +84,16 @@ instructor approval; the core challenge remains a flat maze.
 | Stage | Use this repository / interface |
 | --- | --- |
 | Weeks 1–6: simulation and reports | [go1-mujoco-playground](https://github.com/sriram-2502/go1-mujoco-playground); individual reports on the assigned team branch |
-| Week 7: stationary Basic checkout | [Clemson DyCo-AI/go2-webRTC](https://github.com/DyCo-AI/go2-webRTC); Basic UI on port 5173, no MediaPipe |
-| Weeks 8–9 onward: gesture hardware | [Personal go2-gesture-nav](https://github.com/sriram-2502/go2-gesture-nav); Clemson UI on port 5174 plus the Python gesture service |
+| Weeks 7 onward: Go2 hardware | [Personal go2-gesture-nav](https://github.com/sriram-2502/go2-gesture-nav); one root setup, gesture UI on port 5174 plus the Python gesture service |
 
 The [**go2-gesture-nav instructor reference**](https://github.com/sriram-2502/go2-gesture-nav)
 provides the Windows 11 Clemson dashboard, supervised velocity commands,
 local recording/replay, and the optional Jump once / Bound gait controls. Use
-[the course setup page]({{ '/setup/' | prepend: site.baseurl }}) to distinguish
-the Week 7 Basic starter from the later personal Clemson UI.
+[the course setup page]({{ '/setup/' | prepend: site.baseurl }}) for the same root-level setup used from Week 7 onward.
 
-- Explore the [system design](https://github.com/sriram-2502/go2-gesture-nav#system-design) and [default gesture guide](https://github.com/sriram-2502/go2-gesture-nav#default-gestures).
+- Explore the [system design](https://github.com/sriram-2502/go2-gesture-nav#what-you-will-build) and [default gesture guide](https://github.com/sriram-2502/go2-gesture-nav#your-first-gestures).
 - Follow [the student hardware onboarding](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md) after the simulation checkpoint.
-- Bring your earlier gesture classifier into [the reference integration point](https://github.com/sriram-2502/go2-gesture-nav/blob/main/webrtc/STUDENT_INTEGRATION.md), while retaining command supervision and robot checks.
+- Bring your earlier gesture classifier into [the reference integration point](https://github.com/sriram-2502/go2-gesture-nav/blob/main/docs/STUDENT_INTEGRATION.md), while retaining command supervision and robot checks.
 
 Use the reference to understand and extend the system; keep your own development
 history and follow the course's team-branch README submission policy. Hardware

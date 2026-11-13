@@ -42,17 +42,15 @@ set of activities, and evidence to save in the team's code repository.
 | Stage | Use this repository / interface |
 | --- | --- |
 | Weeks 1–6: simulation and reports | [go1-mujoco-playground](https://github.com/sriram-2502/go1-mujoco-playground); individual reports on the assigned team branch |
-| Week 7: stationary Basic checkout | [Clemson DyCo-AI/go2-webRTC](https://github.com/DyCo-AI/go2-webRTC); Basic UI on port 5173, no MediaPipe |
-| Weeks 8–9 onward: gesture hardware | [Personal go2-gesture-nav](https://github.com/sriram-2502/go2-gesture-nav); Clemson UI on port 5174 plus the Python gesture service |
+| Weeks 7 onward: Go2 hardware | [Personal go2-gesture-nav](https://github.com/sriram-2502/go2-gesture-nav); one root setup, gesture UI on port 5174 plus the Python gesture service |
 
-For installation and daily operation, follow
-[the course hardware guide](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md).
-Do not mix the Basic starter's root-level commands with the personal repo's
-Clemson `webrtc\` commands. Switch clients rather than connecting both at once.
-The personal UI already contains Jump once and Bound gait; activating them is
-an optional, separately approved experiment after the ordinary walking baseline.
-[The setup page]({{ '/setup/' | prepend: site.baseurl }}) explains the controls,
-recovery, version checks, and current qualification limits.
+Use the [personal gesture UI quick start](https://github.com/sriram-2502/go2-gesture-nav#1-install-once)
+and [course hardware guide](https://github.com/sriram-2502/go1-mujoco-playground/blob/main/course/GO2_HARDWARE.md).
+All hardware weeks use the same checkout: root `setup-ui.ps1`, root
+`start-ui.ps1`, and `python -m gesture_preview.server`. Week 7 is stationary;
+later weeks enable supervised walking. There is no separate Basic starter or ROS
+installation in this course path. Jump once / Bound gait remain optional and
+separately approved after the walking baseline.
 
 `creative-inquiry-dev` is instructor authoring work in the playground repo.
 Students follow the published `main` lab links and their assigned team-branch

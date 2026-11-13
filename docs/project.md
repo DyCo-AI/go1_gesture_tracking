@@ -55,7 +55,7 @@ found in unstructured environments.
 4. **Evaluate the result.** Repeat runs on the same layout, compare performance, and explain recognition errors, delays, and behavior-selection decisions using recordings.
 
 Use the [course setup progression]({{ '/setup/' | prepend: site.baseurl }}) and
-[reference behavior/recovery guide](https://github.com/sriram-2502/go2-gesture-nav/blob/main/webrtc/clemson/CONTROL_EXTENSIONS.md)
+[reference behavior/recovery guide](https://github.com/sriram-2502/go2-gesture-nav/blob/main/dashboard/CONTROL_EXTENSIONS.md)
 for what is implemented and what still needs qualification. The older dashboard
 clip does not demonstrate the new buttons.
 

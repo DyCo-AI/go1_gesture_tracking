@@ -16,10 +16,9 @@ permalink: /resources/
 
 - [Course website repository](https://github.com/DyCo-AI/go1_gesture_tracking): schedule, concepts, assignments, and submission expectations.
 - [Student code and weekly labs](https://github.com/sriram-2502/go1-mujoco-playground): Python, MediaPipe, simulation, and weekly work.
-- [Clemson Basic WebRTC starter](https://github.com/DyCo-AI/go2-webRTC): Week 7 stationary camera/feedback checkout; no MediaPipe/Clemson gesture panel.
-- [Go2 gesture-navigation instructor reference](https://github.com/sriram-2502/go2-gesture-nav): Weeks 8 onward; Clemson dashboard, default gestures, Windows setup, recording/replay, and optional Jump once / Bound gait controls.
-- [Clemson behavior and recovery guide](https://github.com/sriram-2502/go2-gesture-nav/blob/main/webrtc/clemson/CONTROL_EXTENSIONS.md): supplied buttons, mode feedback, Stop, remote recovery, and qualification limits.
-- [Bring your own classifier](https://github.com/sriram-2502/go2-gesture-nav/blob/main/webrtc/STUDENT_INTEGRATION.md): reuse earlier gesture work at the Python boundary while preserving supervision.
+- [Go2 gesture-navigation instructor reference](https://github.com/sriram-2502/go2-gesture-nav): Weeks 7 onward; one gesture dashboard, default gestures, Windows setup, recording/replay, and optional Jump once / Bound gait controls.
+- [Clemson behavior and recovery guide](https://github.com/sriram-2502/go2-gesture-nav/blob/main/dashboard/CONTROL_EXTENSIONS.md): supplied buttons, mode feedback, Stop, remote recovery, and qualification limits.
+- [Bring your own classifier](https://github.com/sriram-2502/go2-gesture-nav/blob/main/docs/STUDENT_INTEGRATION.md): reuse earlier gesture work at the Python boundary while preserving supervision.
 - [DyCo-AI Lab Robots](https://dyco-ai.github.io/lab-robots/): basic robot onboarding and links to independent ROS/WebRTC starters.
 
 ## Course Documents

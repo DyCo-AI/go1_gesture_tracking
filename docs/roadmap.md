@@ -34,11 +34,13 @@ Submit individual weekly README reports on the assigned team branch. Keep full
 run recordings and data local and use them for the end-of-course Markdown report.
 See [student work and data]({{ '/student-work/' | prepend: site.baseurl }}).
 
-For Week 7 use [Clemson's Basic starter](https://github.com/DyCo-AI/go2-webRTC).
-For Weeks 8–11 use the [personal Clemson gesture UI](https://github.com/sriram-2502/go2-gesture-nav).
-It already supplies Jump once and Bound gait as optional controls, not required
-maze actions. Follow [the setup progression]({{ '/setup/' | prepend: site.baseurl }})
-for the separate checkouts, launcher/build-ID checks, and behavior qualification.
+For all hardware weeks use the [personal Go2 gesture UI](https://github.com/sriram-2502/go2-gesture-nav).
+Install once with the root setup script, preview while stationary in Week 7,
+then use the same dashboard for supervised walking and recording. No second
+Basic repo or ROS environment is needed. Jump once / Bound gait are supplied
+optional controls, not required maze actions. Follow
+[the setup page]({{ '/setup/' | prepend: site.baseurl }}) for the root commands.
+
 Record the hardware Git commit and ask the instructor for the AES key privately.
 Join the Go2 hotspot rather than Clemson campus Wi-Fi.
 Stationary checks and software tests do not establish physical stopping behavior.
